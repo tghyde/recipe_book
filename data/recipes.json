@@ -3,40 +3,51 @@
   "recipes": [
     {
       "id": "chicken-meatballs-kale",
-      "title": "Chicken meatballs with kale salad",
-      "description": "Meatballs with a crunchy kale and apple salad.",
+      "title": "One-pot chicken meatballs with greens",
+      "description": "Garlic and herb chicken meatballs browned in a pot, then buried under chard and lemon slices to steam through. Spoon the lemony pan juices over everything.",
       "ingredients": [
-        "500g chicken mince",
-        "Breadcrumbs",
-        "1 egg",
-        "Parmesan",
-        "Kale",
-        "1 apple",
-        "Lemon, olive oil"
+        "½ cup panko bread crumbs",
+        "⅓ cup thick full-fat yogurt (Greek or Icelandic)",
+        "2 garlic cloves, minced or grated",
+        "2 scallions, white and light green parts, thinly sliced",
+        "2 tsp dried oregano",
+        "¼ tsp crushed red pepper",
+        "Salt",
+        "1 lb ground chicken",
+        "¼ cup olive oil, plus more as needed",
+        "1 lb rainbow or Swiss chard, tender stalks sliced, leaves cut into 1-inch ribbons",
+        "1 lemon, half thinly sliced, half for wedges",
+        "1 tsp ground cumin"
       ],
       "steps": [
-        "Mix meatballs, roll, fry until browned then finish in the oven.",
-        "Massage kale with lemon, oil and salt.",
-        "Add sliced apple and serve alongside."
+        "Mix the panko, yogurt, garlic, scallions, oregano, red pepper and 1 teaspoon salt in a big bowl, then gently work in the chicken.",
+        "Oil your hands and roll about 14 meatballs, roughly 2 inches each, re-oiling your palms as you go. Set them on a tray.",
+        "Heat a 12-inch Dutch oven or other heavy lidded pot over medium for a couple of minutes. Add 2 tablespoons oil and the meatballs. Brown about 7 minutes, turning once they release easily and adding oil if the pot looks dry.",
+        "Meanwhile toss the chard, lemon slices, cumin and the remaining 2 tablespoons oil in a bowl with a pinch of salt, scrunching the leaves.",
+        "Pile the greens and lemon over the meatballs, cover, keep the heat at medium, and cook 12 to 13 minutes until the meatballs are cooked through and the greens have collapsed.",
+        "Ladle out meatballs and greens together, browned side up, spooning the pan juices on top. Serve with wedges from the other lemon half."
       ],
-      "notes": "Details made up for testing, edit me.",
+      "notes": "From Yasmin Fahr at NYT Cooking. Serves 4, about 40 minutes.",
       "tags": [
         "chicken",
-        "salad",
+        "greens",
+        "one-pot",
         "weeknight"
       ],
       "photos": [
-        "photos/chicken-meatballs-kale/1.jpg"
+        "photos/chicken-meatballs-kale/1.jpg",
+        "photos/chicken-meatballs-kale/2.jpg"
       ],
       "source": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?unlocked_article_code=1.JlE.tYNa.XrgSu8NIXiQW&smid=ck-recipe-iOS-share",
       "createdAt": "2026-06-28T23:47:48Z",
-      "updatedAt": "2026-10-18T13:45:06.269Z",
+      "updatedAt": "2026-10-18T13:51:14Z",
       "cookLog": [
         {
           "id": "chicken-meatballs-kale-c1",
           "date": "2026-09-20"
         }
-      ]
+      ],
+      "sourceTitle": "NYT Cooking: One-Pot Chicken Meatballs With Greens"
     },
     {
       "id": "potato-salad",
@@ -811,36 +822,6 @@
           "note": "Doubled the garlic, good call."
         }
       ]
-    },
-    {
-      "id": "pork-meatballs-greens",
-      "title": "Pork meatballs with greens and squash",
-      "description": "Ginger pork meatballs with wilted greens.",
-      "ingredients": [
-        "500g pork mince",
-        "Ginger, garlic",
-        "Spring onion",
-        "Soy",
-        "Bunch of greens",
-        "Squash, roasted"
-      ],
-      "steps": [
-        "Season mince, roll, brown in a pan.",
-        "Add greens and a splash of water, cover to wilt.",
-        "Serve with roasted squash."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pork",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/pork-meatballs-greens/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-11T13:47:48Z",
-      "updatedAt": "2026-07-11T13:47:48Z",
-      "cookLog": []
     },
     {
       "id": "sticky-ribs-cabbage",
