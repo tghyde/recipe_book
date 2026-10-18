@@ -812,7 +812,15 @@ img {
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
-  word-break: break-all;
+  overflow-wrap: anywhere;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.source svg {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
 }
 .cooklog {
   list-style: none;

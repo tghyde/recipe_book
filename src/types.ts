@@ -15,7 +15,10 @@ export interface Recipe {
   tags: string[]
   /** Repo-relative paths like "photos/<id>/<n>.jpg". Thumbnail is "<n>-t.jpg". */
   photos: string[]
+  /** A URL or plain text such as "Nana's handwritten card". */
   source: string
+  /** Optional label shown in place of the URL, e.g. "NYT Cooking: one-pot chicken meatballs". */
+  sourceTitle?: string
   createdAt: string
   updatedAt: string
   cookLog: CookEntry[]

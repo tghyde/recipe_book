@@ -136,10 +136,10 @@ export function Recipe({ id }: { id: string }) {
                 <h2 className="section-title">Source</h2>
                 {/^https?:\/\//.test(recipe.source) ? (
                   <a className="source" href={recipe.source} target="_blank" rel="noreferrer">
-                    {recipe.source.replace(/^https?:\/\/(www\.)?/, '')}
+                    <Icon.Link /> {recipe.sourceTitle?.trim() || recipe.source.replace(/^https?:\/\/(www\.)?/, '').split('?')[0]}
                   </a>
                 ) : (
-                  <p className="prose">{recipe.source}</p>
+                  <p className="prose">{recipe.sourceTitle?.trim() ? `${recipe.sourceTitle} · ${recipe.source}` : recipe.source}</p>
                 )}
               </section>
             )}

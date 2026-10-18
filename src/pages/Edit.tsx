@@ -38,6 +38,7 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
   const [steps, setSteps] = useState(base.steps.join('\n'))
   const [notes, setNotes] = useState(base.notes)
   const [source, setSource] = useState(base.source)
+  const [sourceTitle, setSourceTitle] = useState(base.sourceTitle ?? '')
   const [tags, setTags] = useState<string[]>(base.tags)
   const [photos, setPhotos] = useState<PhotoItem[]>(base.photos.map((path) => ({ kind: 'existing', path })))
   const [busy, setBusy] = useState(false)
@@ -94,6 +95,7 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
       steps: splitLines(steps),
       notes: notes.trim(),
       source: source.trim(),
+      sourceTitle: sourceTitle.trim() || undefined,
       tags,
       photos: keptPaths,
     }
@@ -178,7 +180,16 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
 
           <div className="field">
             <label htmlFor="f-source">Source</label>
-            <input id="f-source" className="input" type="text" inputMode="url" value={source} onChange={(e) => setSource(e.target.value)} placeholder="A link, or “Nana’s handwritten card”" />
+            <input id="f-source" className="input" type="text" inputMode="url" value={source} onChange={(e) => setSource(e.target.value)} placeholder="Paste a link, or “Nana’s handwritten card”" />
+            <input
+              className="input"
+              type="text"
+              value={sourceTitle}
+              onChange={(e) => setSourceTitle(e.target.value)}
+              placeholder="Shown as… (e.g. “NYT Cooking: one-pot chicken meatballs”)"
+              style={{ marginTop: 8 }}
+            />
+            <div className="hint">If you give a label, it appears instead of the raw link.</div>
           </div>
 
           {!isNew && (
