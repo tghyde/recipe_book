@@ -2,6 +2,28 @@
   "version": 1,
   "recipes": [
     {
+      "id": "mve8223aqwgu7l",
+      "title": "Ma po tofu",
+      "description": "",
+      "ingredients": [
+        "Tofu",
+        "Minced beef/pork",
+        "Sichuan Peppercorn"
+      ],
+      "steps": [],
+      "notes": "",
+      "tags": [
+        "chinese",
+        "beef",
+        "tofu"
+      ],
+      "photos": [],
+      "source": "http://xhslink.com/o/4mE9hKSe8Tg",
+      "createdAt": "2026-10-18T19:32:01.941Z",
+      "updatedAt": "2026-10-18T19:35:09.393Z",
+      "cookLog": []
+    },
+    {
       "id": "wonton-soup",
       "title": "Wonton",
       "description": "Bb's famous pork and shrimp wontons.",
