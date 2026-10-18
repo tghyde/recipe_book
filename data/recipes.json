@@ -21,18 +21,19 @@
         "chinese"
       ],
       "photos": [
-        "photos/wonton-soup/1.jpg",
-        "photos/wonton-soup/mvdwoy0f561mx0.jpg"
+        "photos/wonton-soup/mvdwoy0f561mx0.jpg",
+        "photos/wonton-soup/1.jpg"
       ],
       "source": "",
       "createdAt": "2026-06-24T23:47:48Z",
-      "updatedAt": "2026-10-18T14:13:56.176Z",
+      "updatedAt": "2026-10-18T14:17:00.753Z",
       "cookLog": [
         {
           "id": "wonton-soup-c1",
           "date": "2026-09-29"
         }
-      ]
+      ],
+      "wantToCook": false
     },
     {
       "id": "weeknight-ragu",
