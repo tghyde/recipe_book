@@ -2,6 +2,47 @@
   "version": 1,
   "recipes": [
     {
+      "id": "weeknight-ragu",
+      "title": "Picadillo",
+      "description": "A quick mince sauce for pasta or rice. Freezes well.",
+      "ingredients": [
+        "500g beef mince",
+        "1 onion, 1 carrot",
+        "Tin of tomatoes",
+        "Tomato paste",
+        "Garlic",
+        "Red wine if open"
+      ],
+      "steps": [
+        "Brown the mince hard.",
+        "Add veg and cook down, then paste, wine and tomatoes.",
+        "Simmer 40 minutes, season."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pasta",
+        "weeknight",
+        "freezer"
+      ],
+      "photos": [
+        "photos/weeknight-ragu/1.jpg"
+      ],
+      "source": "https://cooking.nytimes.com/recipes/1016814-picadillo?unlocked_article_code=1.JlE.fVy1.RIhpSr_viLi4&smid=ck-recipe-iOS-share",
+      "createdAt": "2026-07-03T16:47:48Z",
+      "updatedAt": "2026-10-18T13:57:02.694Z",
+      "cookLog": [
+        {
+          "id": "weeknight-ragu-c2",
+          "date": "2026-09-07"
+        },
+        {
+          "id": "weeknight-ragu-c3",
+          "date": "2026-07-14"
+        }
+      ],
+      "sourceTitle": "NYT Cooking: picadillo"
+    },
+    {
       "id": "chicken-meatballs-kale",
       "title": "One-pot chicken meatballs with greens",
       "description": "Garlic and herb chicken meatballs browned in a pot, then buried under chard and lemon slices to steam through. Spoon the lemony pan juices over everything.",
@@ -856,46 +897,6 @@
         {
           "id": "sticky-ribs-cabbage-c1",
           "date": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "id": "weeknight-ragu",
-      "title": "Weeknight ragù",
-      "description": "A quick mince sauce for pasta or rice. Freezes well.",
-      "ingredients": [
-        "500g beef mince",
-        "1 onion, 1 carrot",
-        "Tin of tomatoes",
-        "Tomato paste",
-        "Garlic",
-        "Red wine if open"
-      ],
-      "steps": [
-        "Brown the mince hard.",
-        "Add veg and cook down, then paste, wine and tomatoes.",
-        "Simmer 40 minutes, season."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pasta",
-        "weeknight",
-        "freezer"
-      ],
-      "photos": [
-        "photos/weeknight-ragu/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-03T16:47:48Z",
-      "updatedAt": "2026-07-03T16:47:48Z",
-      "cookLog": [
-        {
-          "id": "weeknight-ragu-c2",
-          "date": "2026-09-07"
-        },
-        {
-          "id": "weeknight-ragu-c3",
-          "date": "2026-07-14"
         }
       ]
     },
