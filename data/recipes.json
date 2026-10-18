@@ -4,32 +4,45 @@
     {
       "id": "weeknight-ragu",
       "title": "Picadillo",
-      "description": "A quick mince sauce for pasta or rice. Freezes well.",
+      "description": "Cuban ground beef stew: beef and dried chorizo in a tomato sofrito, scented with cinnamon, cumin and vinegar, with raisins for sweetness and olives for salt. Serve over white rice.",
       "ingredients": [
-        "500g beef mince",
-        "1 onion, 1 carrot",
-        "Tin of tomatoes",
-        "Tomato paste",
-        "Garlic",
-        "Red wine if open"
+        "2 tbsp extra-virgin olive oil",
+        "2 medium yellow onions, chopped",
+        "2 oz dried chorizo, diced",
+        "4 garlic cloves, minced",
+        "1½ lb ground beef",
+        "Kosher salt and black pepper",
+        "4 ripe tomatoes, chopped, or a 28-oz can whole tomatoes, drained and crushed",
+        "2 tbsp red-wine vinegar",
+        "1 tbsp ground cinnamon",
+        "2 tsp ground cumin",
+        "2 bay leaves",
+        "Pinch of ground cloves",
+        "Pinch of nutmeg",
+        "⅔ cup raisins",
+        "⅔ cup pitted stuffed olives",
+        "White rice, to serve"
       ],
       "steps": [
-        "Brown the mince hard.",
-        "Add veg and cook down, then paste, wine and tomatoes.",
-        "Simmer 40 minutes, season."
+        "Warm the oil in a large heavy pan over medium-high until it shimmers. Add the onions, chorizo and garlic and cook about 10 minutes, until the onions soften.",
+        "Add the beef and brown it, breaking it up with a fork. Season with salt and pepper.",
+        "Stir in the tomatoes, vinegar, cinnamon, cumin, bay leaves, cloves and nutmeg. Turn the heat down, cover, and simmer about 30 minutes.",
+        "Uncover, add the raisins and olives, and cook another 15 minutes or so. Serve with white rice."
       ],
-      "notes": "Details made up for testing, edit me.",
+      "notes": "From Sam Sifton at NYT Cooking, based loosely on Nitza Villapol’s 1954 recipe. Serves 6, about 1 hour.",
       "tags": [
-        "pasta",
-        "weeknight",
-        "freezer"
+        "beef",
+        "cuban",
+        "freezer",
+        "rice",
+        "weeknight"
       ],
       "photos": [
         "photos/weeknight-ragu/1.jpg"
       ],
       "source": "https://cooking.nytimes.com/recipes/1016814-picadillo?unlocked_article_code=1.JlE.fVy1.RIhpSr_viLi4&smid=ck-recipe-iOS-share",
       "createdAt": "2026-07-03T16:47:48Z",
-      "updatedAt": "2026-10-18T13:57:02.694Z",
+      "updatedAt": "2026-10-18T13:58:59Z",
       "cookLog": [],
       "sourceTitle": "NYT Cooking: picadillo"
     },
