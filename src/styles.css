@@ -835,6 +835,17 @@ img {
   border-bottom: 1px solid var(--line);
   align-items: flex-start;
 }
+.cooklog .entry {
+  flex: 1;
+  text-align: left;
+  min-width: 0;
+  border-radius: var(--radius-sm);
+  margin: -6px -8px;
+  padding: 6px 8px;
+}
+.cooklog .entry:not(:disabled):hover {
+  background: var(--chip);
+}
 .cooklog .when {
   font-weight: 600;
 }

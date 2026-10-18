@@ -5,7 +5,7 @@ import { Sheet } from '../components/Sheet'
 import { TopBar } from '../components/TopBar'
 import { href, navigate } from '../router'
 import { logCook, removeCook, setState, useStore } from '../store'
-import type { Recipe as RecipeT } from '../types'
+import type { CookEntry, Recipe as RecipeT } from '../types'
 import { formatDate, lastCooked, relativeDays, todayISO, uid } from '../util'
 import { useWakeLock } from '../wakeLock'
 
@@ -14,8 +14,8 @@ export function Recipe({ id }: { id: string }) {
   const recipe = recipes.find((r) => r.id === id)
   const wake = useWakeLock()
   const [checked, setChecked] = useState<Set<number>>(new Set())
-  const [cookOpen, setCookOpen] = useState(false)
-  const closeCook = useCallback(() => setCookOpen(false), [])
+  const [cookEditing, setCookEditing] = useState<'new' | CookEntry | null>(null)
+  const closeCook = useCallback(() => setCookEditing(null), [])
 
   if (!recipe) {
     return (
@@ -86,7 +86,7 @@ export function Recipe({ id }: { id: string }) {
         </div>
 
         <div className="actions">
-          <button className="btn btn-primary" onClick={() => setCookOpen(true)} disabled={!token}>
+          <button className="btn btn-primary" onClick={() => setCookEditing('new')} disabled={!token}>
             <Icon.Pot /> I cooked this
           </button>
           {wake.supported && (
@@ -151,13 +151,13 @@ export function Recipe({ id }: { id: string }) {
                 <ul className="cooklog">
                   {recipe.cookLog.map((c) => (
                     <li key={c.id}>
-                      <div>
+                      <button type="button" className="entry" onClick={() => token && setCookEditing(c)} disabled={!token}>
                         <div className="when">
                           {formatDate(c.date)}
                           <span className="ago">{relativeDays(c.date)}</span>
                         </div>
                         {c.note && <div className="note">{c.note}</div>}
-                      </div>
+                      </button>
                       {token && (
                         <button className="remove" aria-label="Remove entry" onClick={() => removeEntry(c.id)}>
                           <Icon.Trash />
@@ -172,7 +172,7 @@ export function Recipe({ id }: { id: string }) {
         </div>
       </div>
 
-      {cookOpen && <CookSheet recipe={recipe} onClose={closeCook} />}
+      {cookEditing && <CookSheet recipe={recipe} entry={cookEditing === 'new' ? null : cookEditing} onClose={closeCook} />}
     </>
   )
 }
@@ -207,17 +207,17 @@ function Gallery({ photos }: { photos: string[] }) {
   )
 }
 
-function CookSheet({ recipe, onClose }: { recipe: RecipeT; onClose: () => void }) {
-  const [date, setDate] = useState(todayISO())
-  const [note, setNote] = useState('')
+function CookSheet({ recipe, entry, onClose }: { recipe: RecipeT; entry: CookEntry | null; onClose: () => void }) {
+  const [date, setDate] = useState(entry?.date ?? todayISO())
+  const [note, setNote] = useState(entry?.note ?? '')
   const save = () => {
-    void logCook(recipe.id, { id: uid(), date, note: note.trim() || undefined })
+    void logCook(recipe.id, { id: entry?.id ?? uid(), date, note: note.trim() || undefined })
     onClose()
   }
   return (
     <Sheet onClose={onClose}>
-      <h2>Cooked {recipe.title}</h2>
-      <p className="sub">Add it to the history so future you remembers.</p>
+      <h2>{entry ? 'Edit this cook' : `Cooked ${recipe.title}`}</h2>
+      <p className="sub">{entry ? 'Change the date or note, then save.' : 'Add it to the history so future you remembers.'}</p>
       <div className="field">
         <label htmlFor="cook-date">When</label>
         <input id="cook-date" className="input" type="date" value={date} max={todayISO()} onChange={(e) => setDate(e.target.value)} />
@@ -231,7 +231,7 @@ function CookSheet({ recipe, onClose }: { recipe: RecipeT; onClose: () => void }
           Cancel
         </button>
         <button className="btn btn-primary" onClick={save} disabled={!date}>
-          <Icon.Check /> Log it
+          <Icon.Check /> {entry ? 'Save' : 'Log it'}
         </button>
       </div>
     </Sheet>
