@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 import { ConflictError, commitFiles, fetchRecipeFile, getToken, setToken, type FileChange } from './github'
 import { DATA_PATH } from './config'
-import type { Recipe, SortKey } from './types'
+import type { Recipe, SortKey, View } from './types'
 
 export type Theme = 'auto' | 'light' | 'dark'
 
@@ -20,6 +20,7 @@ export interface State {
   query: string
   activeTags: string[]
   sort: SortKey
+  view: View
 }
 
 const CACHE_KEY = 'rb:cache'
@@ -67,6 +68,7 @@ let state: State = {
   query: '',
   activeTags: [],
   sort: 'cooked',
+  view: 'book',
 }
 
 const listeners = new Set<() => void>()
@@ -234,16 +236,30 @@ export function deleteRecipe(recipe: Recipe): Promise<void> {
 }
 
 export function logCook(recipeId: string, entry: Recipe['cookLog'][number]): Promise<void> {
-  const title = state.recipes.find((r) => r.id === recipeId)?.title ?? ''
+  const recipe = state.recipes.find((r) => r.id === recipeId)
+  if (recipe?.wantToCook) toast('Moved from the want-to-cook list into the book')
   return commit({
-    message: `Cooked: ${title}`,
+    message: `Cooked: ${recipe?.title ?? ''}`,
     files: [],
     mutate: (recipes) =>
       recipes.map((r) =>
         r.id === recipeId
-          ? { ...r, cookLog: [entry, ...r.cookLog.filter((c) => c.id !== entry.id)].sort((a, b) => (a.date < b.date ? 1 : -1)) }
+          ? {
+              ...r,
+              wantToCook: false,
+              cookLog: [entry, ...r.cookLog.filter((c) => c.id !== entry.id)].sort((a, b) => (a.date < b.date ? 1 : -1)),
+            }
           : r,
       ),
+  })
+}
+
+export function setWantToCook(recipeId: string, want: boolean): Promise<void> {
+  const title = state.recipes.find((r) => r.id === recipeId)?.title ?? ''
+  return commit({
+    message: `${want ? 'Want to cook' : 'Remove from want-to-cook'}: ${title}`,
+    files: [],
+    mutate: (recipes) => recipes.map((r) => (r.id === recipeId ? { ...r, wantToCook: want } : r)),
   })
 }
 

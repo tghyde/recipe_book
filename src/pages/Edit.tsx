@@ -1,4 +1,4 @@
-import { useMemo, useState, type ChangeEvent } from 'react'
+import { useMemo, useState, type ChangeEvent, type PointerEvent as ReactPointerEvent } from 'react'
 import { Icon } from '../components/Icons'
 import { Photo } from '../components/Photo'
 import { TagInput } from '../components/TagInput'
@@ -13,7 +13,7 @@ import { emptyRecipe, splitLines, thumbPath, uid } from '../util'
 
 type PhotoItem = { kind: 'existing'; path: string } | { kind: 'new'; key: string; full: Blob; thumb: Blob; preview: string }
 
-export function Edit({ id }: { id?: string }) {
+export function Edit({ id, want = false }: { id?: string; want?: boolean }) {
   const { recipes, loaded, token } = useStore()
   const existing = id ? recipes.find((r) => r.id === id) : undefined
   if (id && !existing) {
@@ -26,10 +26,10 @@ export function Edit({ id }: { id?: string }) {
       </>
     )
   }
-  return <EditForm key={existing?.id ?? 'new'} existing={existing} recipes={recipes} canSave={Boolean(token)} />
+  return <EditForm key={existing?.id ?? 'new'} existing={existing} recipes={recipes} canSave={Boolean(token)} presetWant={want} />
 }
 
-function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: Recipe[]; canSave: boolean }) {
+function EditForm({ existing, recipes, canSave, presetWant }: { existing?: Recipe; recipes: Recipe[]; canSave: boolean; presetWant: boolean }) {
   const isNew = !existing
   const base = useMemo(() => existing ?? emptyRecipe(), [existing])
   const [title, setTitle] = useState(base.title)
@@ -40,8 +40,55 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
   const [source, setSource] = useState(base.source)
   const [sourceTitle, setSourceTitle] = useState(base.sourceTitle ?? '')
   const [tags, setTags] = useState<string[]>(base.tags)
+  const [wantToCook, setWantToCook] = useState(existing ? Boolean(existing.wantToCook) : presetWant)
   const [photos, setPhotos] = useState<PhotoItem[]>(base.photos.map((path) => ({ kind: 'existing', path })))
   const [busy, setBusy] = useState(false)
+  const [dragIndex, setDragIndex] = useState<number | null>(null)
+
+  /**
+   * Drag a tile to reorder. Mouse: grab anywhere on the tile. Touch: grab the grip in the corner,
+   * so the page still scrolls when you swipe over the photos. The list reorders live as the
+   * pointer passes over other tiles.
+   */
+  const startDrag = (e: ReactPointerEvent<HTMLDivElement>, index: number) => {
+    const target = e.target as HTMLElement
+    if (target.closest('.remove')) return
+    if (e.pointerType !== 'mouse' && !target.closest('.grip')) return
+    e.preventDefault()
+    const el = e.currentTarget
+    try {
+      el.setPointerCapture(e.pointerId)
+    } catch {
+      /* capture is a nicety; the window listeners below do the work */
+    }
+    let from = index
+    setDragIndex(from)
+    const onMove = (ev: PointerEvent) => {
+      const hit = document.elementFromPoint(ev.clientX, ev.clientY)?.closest<HTMLElement>('.photo-tile[data-index]')
+      if (!hit) return
+      const to = Number(hit.dataset.index)
+      if (Number.isNaN(to) || to === from) return
+      // React may run this updater later, so copy the indices now rather than reading `from` then.
+      const moveFrom = from
+      setPhotos((p) => {
+        const next = [...p]
+        const [item] = next.splice(moveFrom, 1)
+        next.splice(to, 0, item)
+        return next
+      })
+      from = to
+      setDragIndex(to)
+    }
+    const onEnd = () => {
+      window.removeEventListener('pointermove', onMove)
+      window.removeEventListener('pointerup', onEnd)
+      window.removeEventListener('pointercancel', onEnd)
+      setDragIndex(null)
+    }
+    window.addEventListener('pointermove', onMove)
+    window.addEventListener('pointerup', onEnd)
+    window.addEventListener('pointercancel', onEnd)
+  }
   const [preparing, setPreparing] = useState(0)
   const suggestions = useMemo(() => allTags(recipes).map((t) => t.tag), [recipes])
 
@@ -98,6 +145,7 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
       sourceTitle: sourceTitle.trim() || undefined,
       tags,
       photos: keptPaths,
+      wantToCook,
     }
     void upsertRecipe(recipe, files, isNew)
     navigate(href.recipe(recipe.id))
@@ -135,9 +183,18 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
           <div className="field">
             <span className="label">Photos</span>
             <div className="photo-grid">
-              {photos.map((item) => (
-                <div className="photo-tile" key={item.kind === 'existing' ? item.path : item.key}>
-                  {item.kind === 'existing' ? <Photo path={item.path} thumb alt="" /> : <img src={item.preview} alt="" />}
+              {photos.map((item, index) => (
+                <div
+                  className={`photo-tile${dragIndex === index ? ' dragging' : ''}`}
+                  key={item.kind === 'existing' ? item.path : item.key}
+                  data-index={index}
+                  onPointerDown={(e) => startDrag(e, index)}
+                >
+                  {item.kind === 'existing' ? <Photo path={item.path} thumb alt="" /> : <img src={item.preview} alt="" draggable={false} />}
+                  {index === 0 && <span className="cover-label">Cover</span>}
+                  <span className="grip" aria-hidden="true">
+                    <Icon.Grip />
+                  </span>
                   <button type="button" className="remove" aria-label="Remove photo" onClick={() => removePhoto(item)}>
                     <Icon.Close />
                   </button>
@@ -149,7 +206,16 @@ function EditForm({ existing, recipes, canSave }: { existing?: Recipe; recipes: 
                 <input type="file" accept="image/*" multiple onChange={(e) => void onPick(e)} />
               </label>
             </div>
+            {photos.length > 1 && <div className="hint">Drag to reorder. The first photo is the cover. On a phone, drag by the dotted handle.</div>}
           </div>
+
+          <label className="check-row">
+            <input type="checkbox" checked={wantToCook} onChange={(e) => setWantToCook(e.target.checked)} />
+            <span>
+              <b>On the want-to-cook list</b>
+              <small>Kept apart from the book until the first time you log a cook.</small>
+            </span>
+          </label>
 
           <div className="field">
             <span className="label">Tags</span>

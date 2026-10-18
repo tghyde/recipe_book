@@ -23,7 +23,7 @@ export default function App() {
       page = <Edit id={route.id} />
       break
     case 'new':
-      page = <Edit />
+      page = <Edit want={route.want} />
       break
     case 'settings':
       page = <Settings />

@@ -4,7 +4,7 @@ import { Photo } from '../components/Photo'
 import { Sheet } from '../components/Sheet'
 import { TopBar } from '../components/TopBar'
 import { href, navigate } from '../router'
-import { logCook, removeCook, setState, useStore } from '../store'
+import { logCook, removeCook, setState, setWantToCook, useStore } from '../store'
 import type { CookEntry, Recipe as RecipeT } from '../types'
 import { formatDate, lastCooked, relativeDays, todayISO, uid } from '../util'
 import { useWakeLock } from '../wakeLock'
@@ -73,6 +73,7 @@ export function Recipe({ id }: { id: string }) {
             </div>
           )}
           <h1>{recipe.title}</h1>
+          {recipe.wantToCook && <p className="badge-want">On the want-to-cook list</p>}
           {recipe.description && <p className="desc">{recipe.description}</p>}
           <p className="stat">
             {last ? (
@@ -94,6 +95,14 @@ export function Recipe({ id }: { id: string }) {
               <Icon.Sun /> {wake.active ? 'Screen staying on' : 'Keep screen on'}
             </button>
           )}
+          <button
+            className={`btn btn-secondary btn-toggle${recipe.wantToCook ? ' on' : ''}`}
+            onClick={() => void setWantToCook(recipe.id, !recipe.wantToCook)}
+            disabled={!token}
+            aria-pressed={Boolean(recipe.wantToCook)}
+          >
+            <Icon.Bookmark /> {recipe.wantToCook ? 'Remove from list' : 'Want to cook'}
+          </button>
         </div>
 
         <div className="cols">

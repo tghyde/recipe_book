@@ -79,6 +79,21 @@ export const Icon = {
       <path d="M20 4v5h-5" />
     </svg>
   ),
+  Grip: () => (
+    <svg {...base} strokeWidth={0} fill="currentColor">
+      <circle cx="9" cy="6" r="1.8" />
+      <circle cx="15" cy="6" r="1.8" />
+      <circle cx="9" cy="12" r="1.8" />
+      <circle cx="15" cy="12" r="1.8" />
+      <circle cx="9" cy="18" r="1.8" />
+      <circle cx="15" cy="18" r="1.8" />
+    </svg>
+  ),
+  Bookmark: () => (
+    <svg {...base}>
+      <path d="M6 4h12v17l-6-4-6 4V4Z" />
+    </svg>
+  ),
   Link: () => (
     <svg {...base}>
       <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" />

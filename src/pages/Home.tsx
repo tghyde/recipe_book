@@ -5,7 +5,7 @@ import { APP_TITLE } from '../config'
 import { href } from '../router'
 import { allTags, filterRecipes } from '../search'
 import { setState, useStore } from '../store'
-import type { SortKey } from '../types'
+import type { SortKey, View } from '../types'
 import { lastCooked, relativeDays } from '../util'
 
 const SORTS: Array<{ key: SortKey; label: string }> = [
@@ -16,9 +16,18 @@ const SORTS: Array<{ key: SortKey; label: string }> = [
 ]
 
 export function Home() {
-  const { recipes, loaded, refreshing, error, token, query, activeTags, sort } = useStore()
+  const { recipes: all, loaded, refreshing, error, token, query, activeTags, sort, view } = useStore()
+  const book = useMemo(() => all.filter((r) => !r.wantToCook), [all])
+  const wanted = useMemo(() => all.filter((r) => r.wantToCook), [all])
+  const recipes = view === 'want' ? wanted : book
   const tags = useMemo(() => allTags(recipes), [recipes])
   const shown = useMemo(() => filterRecipes(recipes, query, activeTags, sort), [recipes, query, activeTags, sort])
+  // How many results the search would find on the other list, so nothing feels lost.
+  const elsewhere = useMemo(
+    () => (query.trim() || activeTags.length ? filterRecipes(view === 'want' ? book : wanted, query, activeTags, sort).length : 0),
+    [view, book, wanted, query, activeTags, sort],
+  )
+  const switchView = (v: View) => setState({ view: v, activeTags: [] })
 
   const latest = useMemo(() => {
     let best: { title: string; date: string } | null = null
@@ -43,9 +52,9 @@ export function Home() {
             <p className="sub">
               {!loaded
                 ? 'Loading…'
-                : recipes.length === 0
+                : book.length === 0
                   ? 'Nothing in the book yet.'
-                  : `${recipes.length} ${recipes.length === 1 ? 'recipe' : 'recipes'}` +
+                  : `${book.length} ${book.length === 1 ? 'recipe' : 'recipes'}` +
                     (latest ? ` · last cooked ${latest.title}, ${relativeDays(latest.date)}` : '')}
               {refreshing && loaded ? ' · updating' : ''}
             </p>
@@ -54,7 +63,7 @@ export function Home() {
             <a className="icon-btn" href={href.settings} aria-label="Settings">
               <Icon.Settings />
             </a>
-            <a className="btn btn-primary" href={href.new}>
+            <a className="btn btn-primary" href={view === 'want' ? href.newWant : href.new}>
               <Icon.Plus /> New recipe
             </a>
           </div>
@@ -80,6 +89,14 @@ export function Home() {
 
       <div className="toolbar">
         <div className="container">
+          <div className="tabs" role="tablist">
+            <button role="tab" aria-selected={view === 'book'} className={view === 'book' ? 'on' : ''} onClick={() => switchView('book')}>
+              The book
+            </button>
+            <button role="tab" aria-selected={view === 'want'} className={view === 'want' ? 'on' : ''} onClick={() => switchView('want')}>
+              Want to cook{wanted.length > 0 && <span className="count">{wanted.length}</span>}
+            </button>
+          </div>
           <div className="search">
             <label className="search-input">
               <Icon.Search />
@@ -126,6 +143,11 @@ export function Home() {
           {shown.map((r) => (
             <RecipeCard key={r.id} recipe={r} />
           ))}
+          {loaded && elsewhere > 0 && (
+            <button className="elsewhere" onClick={() => switchView(view === 'want' ? 'book' : 'want')}>
+              {elsewhere} more {elsewhere === 1 ? 'match' : 'matches'} {view === 'want' ? 'in the book' : 'on the want-to-cook list'}
+            </button>
+          )}
           {loaded && shown.length === 0 && (
             <div className="empty">
               {filtering ? (
@@ -135,6 +157,14 @@ export function Home() {
                   <button className="btn btn-secondary" onClick={() => setState({ query: '', activeTags: [] })}>
                     Clear search
                   </button>
+                </>
+              ) : view === 'want' ? (
+                <>
+                  <h2>Nothing on the list</h2>
+                  <p>Save something you’d like to try. It moves into the book the first time you log a cook.</p>
+                  <a className="btn btn-primary" href={href.newWant}>
+                    <Icon.Plus /> Add one to try
+                  </a>
                 </>
               ) : (
                 <>
@@ -150,7 +180,7 @@ export function Home() {
         </div>
       </main>
 
-      <a className="fab" href={href.new} aria-label="New recipe">
+      <a className="fab" href={view === 'want' ? href.newWant : href.new} aria-label="New recipe">
         <Icon.Plus />
       </a>
     </>

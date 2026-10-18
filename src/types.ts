@@ -22,7 +22,11 @@ export interface Recipe {
   createdAt: string
   updatedAt: string
   cookLog: CookEntry[]
+  /** On the "want to cook" list. Cleared automatically the first time a cook is logged. */
+  wantToCook?: boolean
 }
+
+export type View = 'book' | 'want'
 
 export interface RecipeFile {
   version: 1

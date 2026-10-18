@@ -4,7 +4,7 @@ export type Route =
   | { name: 'home' }
   | { name: 'recipe'; id: string }
   | { name: 'edit'; id: string }
-  | { name: 'new' }
+  | { name: 'new'; want: boolean }
   | { name: 'settings' }
 
 export function parseHash(hash: string): Route {
@@ -12,7 +12,7 @@ export function parseHash(hash: string): Route {
   const [a, b] = path.split('/')
   if (a === 'r' && b) return { name: 'recipe', id: decodeURIComponent(b) }
   if (a === 'edit' && b) return { name: 'edit', id: decodeURIComponent(b) }
-  if (a === 'new') return { name: 'new' }
+  if (a === 'new') return { name: 'new', want: b === 'want' }
   if (a === 'settings') return { name: 'settings' }
   return { name: 'home' }
 }
@@ -36,5 +36,6 @@ export const href = {
   recipe: (id: string) => `#/r/${encodeURIComponent(id)}`,
   edit: (id: string) => `#/edit/${encodeURIComponent(id)}`,
   new: '#/new',
+  newWant: '#/new/want',
   settings: '#/settings',
 }
