@@ -1026,7 +1026,8 @@
           "id": "chicken-noodles-c3",
           "date": "2026-08-28"
         }
-      ]
+      ],
+      "wantToCook": false
     },
     {
       "id": "mushroom-rigatoni",
