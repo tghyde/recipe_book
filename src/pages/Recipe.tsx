@@ -52,6 +52,7 @@ export function Recipe({ id }: { id: string }) {
     <>
       <TopBar
         title={recipe.title}
+        backTo={href.home}
         right={
           <a className="icon-btn" href={href.edit(recipe.id)} aria-label="Edit">
             <Icon.Edit />

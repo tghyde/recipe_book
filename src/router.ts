@@ -31,11 +31,6 @@ export function navigate(path: string) {
   location.hash = path
 }
 
-export function back(fallback = '#/') {
-  if (history.length > 1) history.back()
-  else navigate(fallback)
-}
-
 export const href = {
   home: '#/',
   recipe: (id: string) => `#/r/${encodeURIComponent(id)}`,
