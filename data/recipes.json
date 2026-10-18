@@ -2,6 +2,43 @@
   "version": 1,
   "recipes": [
     {
+      "id": "chicken-meatballs-kale",
+      "title": "Chicken meatballs with kale salad",
+      "description": "Meatballs with a crunchy kale and apple salad.",
+      "ingredients": [
+        "500g chicken mince",
+        "Breadcrumbs",
+        "1 egg",
+        "Parmesan",
+        "Kale",
+        "1 apple",
+        "Lemon, olive oil"
+      ],
+      "steps": [
+        "Mix meatballs, roll, fry until browned then finish in the oven.",
+        "Massage kale with lemon, oil and salt.",
+        "Add sliced apple and serve alongside."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chicken",
+        "salad",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/chicken-meatballs-kale/1.jpg"
+      ],
+      "source": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?unlocked_article_code=1.JlE.tYNa.XrgSu8NIXiQW&smid=ck-recipe-iOS-share",
+      "createdAt": "2026-06-28T23:47:48Z",
+      "updatedAt": "2026-10-18T13:45:06.269Z",
+      "cookLog": [
+        {
+          "id": "chicken-meatballs-kale-c1",
+          "date": "2026-09-20"
+        }
+      ]
+    },
+    {
       "id": "potato-salad",
       "title": "Picnic potato salad",
       "description": "Creamy potato salad with dill. Travels well.",
@@ -882,43 +919,6 @@
         {
           "id": "weeknight-ragu-c3",
           "date": "2026-07-14"
-        }
-      ]
-    },
-    {
-      "id": "chicken-meatballs-kale",
-      "title": "Chicken meatballs with kale salad",
-      "description": "Meatballs with a crunchy kale and apple salad.",
-      "ingredients": [
-        "500g chicken mince",
-        "Breadcrumbs",
-        "1 egg",
-        "Parmesan",
-        "Kale",
-        "1 apple",
-        "Lemon, olive oil"
-      ],
-      "steps": [
-        "Mix meatballs, roll, fry until browned then finish in the oven.",
-        "Massage kale with lemon, oil and salt.",
-        "Add sliced apple and serve alongside."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chicken",
-        "salad",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/chicken-meatballs-kale/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-28T23:47:48Z",
-      "updatedAt": "2026-06-28T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "chicken-meatballs-kale-c1",
-          "date": "2026-09-20"
         }
       ]
     },
