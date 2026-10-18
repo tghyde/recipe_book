@@ -27,12 +27,7 @@
       "source": "",
       "createdAt": "2026-06-24T23:47:48Z",
       "updatedAt": "2026-10-18T14:17:00.753Z",
-      "cookLog": [
-        {
-          "id": "wonton-soup-c1",
-          "date": "2026-09-29"
-        }
-      ],
+      "cookLog": [],
       "wantToCook": false
     },
     {
@@ -64,16 +59,7 @@
       "source": "https://cooking.nytimes.com/recipes/1016814-picadillo?unlocked_article_code=1.JlE.fVy1.RIhpSr_viLi4&smid=ck-recipe-iOS-share",
       "createdAt": "2026-07-03T16:47:48Z",
       "updatedAt": "2026-10-18T13:57:02.694Z",
-      "cookLog": [
-        {
-          "id": "weeknight-ragu-c2",
-          "date": "2026-09-07"
-        },
-        {
-          "id": "weeknight-ragu-c3",
-          "date": "2026-07-14"
-        }
-      ],
+      "cookLog": [],
       "sourceTitle": "NYT Cooking: picadillo"
     },
     {
@@ -116,12 +102,7 @@
       "source": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?unlocked_article_code=1.JlE.tYNa.XrgSu8NIXiQW&smid=ck-recipe-iOS-share",
       "createdAt": "2026-06-28T23:47:48Z",
       "updatedAt": "2026-10-18T13:54:33.619Z",
-      "cookLog": [
-        {
-          "id": "chicken-meatballs-kale-c1",
-          "date": "2026-09-20"
-        }
-      ],
+      "cookLog": [],
       "sourceTitle": "NYT Cooking: One-Pot Chicken Meatballs With Greens"
     },
     {
@@ -153,13 +134,7 @@
       "source": "",
       "createdAt": "2026-08-28T10:47:48Z",
       "updatedAt": "2026-10-18T13:10:57.037Z",
-      "cookLog": [
-        {
-          "id": "potato-salad-c1",
-          "date": "2026-07-09",
-          "note": "Everyone had seconds."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "claypot-beef-peppers",
@@ -190,13 +165,7 @@
       "source": "",
       "createdAt": "2026-09-29T07:47:48Z",
       "updatedAt": "2026-09-29T07:47:48Z",
-      "cookLog": [
-        {
-          "id": "claypot-beef-peppers-c1",
-          "date": "2026-09-16",
-          "note": "Everyone had seconds."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "carrot-beef-stew-black-rice",
@@ -227,12 +196,7 @@
       "source": "",
       "createdAt": "2026-09-25T00:47:48Z",
       "updatedAt": "2026-09-25T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "carrot-beef-stew-black-rice-c1",
-          "date": "2026-09-05"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "oyakodon",
@@ -264,17 +228,7 @@
       "source": "",
       "createdAt": "2026-09-21T04:47:48Z",
       "updatedAt": "2026-09-21T04:47:48Z",
-      "cookLog": [
-        {
-          "id": "oyakodon-c1",
-          "date": "2026-09-21",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "oyakodon-c2",
-          "date": "2026-07-24"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "beef-tomato-egg-noodles",
@@ -307,16 +261,7 @@
       "source": "",
       "createdAt": "2026-09-17T13:47:48Z",
       "updatedAt": "2026-09-17T13:47:48Z",
-      "cookLog": [
-        {
-          "id": "beef-tomato-egg-noodles-c1",
-          "date": "2026-09-24"
-        },
-        {
-          "id": "beef-tomato-egg-noodles-c2",
-          "date": "2026-08-20"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "braised-pork-coriander",
@@ -347,12 +292,7 @@
       "source": "",
       "createdAt": "2026-09-13T12:47:48Z",
       "updatedAt": "2026-09-13T12:47:48Z",
-      "cookLog": [
-        {
-          "id": "braised-pork-coriander-c1",
-          "date": "2026-09-12"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "shrimp-fried-rice",
@@ -384,12 +324,7 @@
       "source": "",
       "createdAt": "2026-09-09T14:47:48Z",
       "updatedAt": "2026-09-09T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "shrimp-fried-rice-c1",
-          "date": "2026-09-30"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "cumin-beef-green-beans",
@@ -420,17 +355,7 @@
       "source": "",
       "createdAt": "2026-09-05T03:47:48Z",
       "updatedAt": "2026-09-05T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "cumin-beef-green-beans-c1",
-          "date": "2026-10-04",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "cumin-beef-green-beans-c2",
-          "date": "2026-08-31"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "pepperoni-pizza",
@@ -461,13 +386,7 @@
       "source": "",
       "createdAt": "2026-09-01T01:47:48Z",
       "updatedAt": "2026-09-01T01:47:48Z",
-      "cookLog": [
-        {
-          "id": "pepperoni-pizza-c1",
-          "date": "2026-09-18",
-          "note": "Everyone had seconds."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "salmon-black-rice",
@@ -498,12 +417,7 @@
       "source": "",
       "createdAt": "2026-08-24T12:47:48Z",
       "updatedAt": "2026-08-24T12:47:48Z",
-      "cookLog": [
-        {
-          "id": "salmon-black-rice-c1",
-          "date": "2026-09-28"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "eggplant-pork",
@@ -534,17 +448,7 @@
       "source": "",
       "createdAt": "2026-08-20T03:47:48Z",
       "updatedAt": "2026-08-20T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "eggplant-pork-c1",
-          "date": "2026-10-06",
-          "note": "Needs more salt than you think."
-        },
-        {
-          "id": "eggplant-pork-c2",
-          "date": "2026-08-26"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "bibimbap",
@@ -575,12 +479,7 @@
       "source": "",
       "createdAt": "2026-08-16T03:47:48Z",
       "updatedAt": "2026-08-16T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "bibimbap-c1",
-          "date": "2026-08-03"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "roast-whole-fish",
@@ -610,13 +509,7 @@
       "source": "",
       "createdAt": "2026-08-12T00:47:48Z",
       "updatedAt": "2026-08-12T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "roast-whole-fish-c1",
-          "date": "2026-09-09",
-          "note": "Everyone had seconds."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "rice-cakes",
@@ -676,13 +569,7 @@
       "source": "",
       "createdAt": "2026-08-03T23:47:48Z",
       "updatedAt": "2026-08-03T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "tuna-broccoli-salad-c1",
-          "date": "2026-10-01",
-          "note": "Needs more salt than you think."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "tomato-egg",
@@ -715,28 +602,7 @@
       "source": "",
       "createdAt": "2026-07-31T00:47:48Z",
       "updatedAt": "2026-07-31T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "tomato-egg-c1",
-          "date": "2026-10-17"
-        },
-        {
-          "id": "tomato-egg-c2",
-          "date": "2026-10-10"
-        },
-        {
-          "id": "tomato-egg-c3",
-          "date": "2026-09-26"
-        },
-        {
-          "id": "tomato-egg-c4",
-          "date": "2026-08-30"
-        },
-        {
-          "id": "tomato-egg-c5",
-          "date": "2026-07-19"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "beef-potato-stew",
@@ -769,21 +635,7 @@
       "source": "",
       "createdAt": "2026-07-26T21:47:48Z",
       "updatedAt": "2026-07-26T21:47:48Z",
-      "cookLog": [
-        {
-          "id": "beef-potato-stew-c1",
-          "date": "2026-10-07",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "beef-potato-stew-c2",
-          "date": "2026-08-13"
-        },
-        {
-          "id": "beef-potato-stew-c3",
-          "date": "2026-06-09"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "kimchi-tofu-stew",
@@ -815,16 +667,7 @@
       "source": "",
       "createdAt": "2026-07-23T14:47:48Z",
       "updatedAt": "2026-07-23T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "kimchi-tofu-stew-c1",
-          "date": "2026-10-13"
-        },
-        {
-          "id": "kimchi-tofu-stew-c2",
-          "date": "2026-09-22"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "sesame-tofu",
@@ -854,13 +697,7 @@
       "source": "",
       "createdAt": "2026-07-18T23:47:48Z",
       "updatedAt": "2026-07-18T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "sesame-tofu-c1",
-          "date": "2026-10-03",
-          "note": "Needs more salt than you think."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "prawn-skewers",
@@ -890,13 +727,7 @@
       "source": "",
       "createdAt": "2026-07-15T08:47:48Z",
       "updatedAt": "2026-07-15T08:47:48Z",
-      "cookLog": [
-        {
-          "id": "prawn-skewers-c1",
-          "date": "2026-06-29",
-          "note": "Doubled the garlic, good call."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "sticky-ribs-cabbage",
@@ -927,12 +758,7 @@
       "source": "",
       "createdAt": "2026-07-07T16:47:48Z",
       "updatedAt": "2026-07-07T16:47:48Z",
-      "cookLog": [
-        {
-          "id": "sticky-ribs-cabbage-c1",
-          "date": "2026-08-23"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "egg-fried-rice",
@@ -964,24 +790,7 @@
       "source": "",
       "createdAt": "2026-06-21T10:47:48Z",
       "updatedAt": "2026-06-21T10:47:48Z",
-      "cookLog": [
-        {
-          "id": "egg-fried-rice-c1",
-          "date": "2026-10-16"
-        },
-        {
-          "id": "egg-fried-rice-c2",
-          "date": "2026-10-08"
-        },
-        {
-          "id": "egg-fried-rice-c3",
-          "date": "2026-09-14"
-        },
-        {
-          "id": "egg-fried-rice-c4",
-          "date": "2026-07-29"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "chicken-noodles",
@@ -1012,21 +821,7 @@
       "source": "",
       "createdAt": "2026-06-17T00:47:48Z",
       "updatedAt": "2026-06-17T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "chicken-noodles-c1",
-          "date": "2026-10-15",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "chicken-noodles-c2",
-          "date": "2026-09-25"
-        },
-        {
-          "id": "chicken-noodles-c3",
-          "date": "2026-08-28"
-        }
-      ],
+      "cookLog": [],
       "wantToCook": false
     },
     {
@@ -1059,17 +854,7 @@
       "source": "",
       "createdAt": "2026-06-13T04:47:48Z",
       "updatedAt": "2026-06-13T04:47:48Z",
-      "cookLog": [
-        {
-          "id": "mushroom-rigatoni-c1",
-          "date": "2026-10-02",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "mushroom-rigatoni-c2",
-          "date": "2026-08-18"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "tuna-poke",
@@ -1102,13 +887,7 @@
       "source": "",
       "createdAt": "2026-06-09T11:47:48Z",
       "updatedAt": "2026-06-09T11:47:48Z",
-      "cookLog": [
-        {
-          "id": "tuna-poke-c1",
-          "date": "2026-10-09",
-          "note": "A bit dry, less time next go."
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "crispy-prawns",
@@ -1171,21 +950,7 @@
       "source": "",
       "createdAt": "2026-06-01T14:47:48Z",
       "updatedAt": "2026-06-01T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "avocado-toast-figs-c1",
-          "date": "2026-10-12",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "avocado-toast-figs-c2",
-          "date": "2026-09-17"
-        },
-        {
-          "id": "avocado-toast-figs-c3",
-          "date": "2026-08-08"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "fish-broccolini",
@@ -1216,12 +981,7 @@
       "source": "",
       "createdAt": "2026-05-28T15:47:48Z",
       "updatedAt": "2026-05-28T15:47:48Z",
-      "cookLog": [
-        {
-          "id": "fish-broccolini-c1",
-          "date": "2026-09-27"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "mezze-night",
@@ -1256,12 +1016,7 @@
       "source": "",
       "createdAt": "2026-05-24T05:47:48Z",
       "updatedAt": "2026-05-24T05:47:48Z",
-      "cookLog": [
-        {
-          "id": "mezze-night-c1",
-          "date": "2026-10-05"
-        }
-      ]
+      "cookLog": []
     },
     {
       "id": "chive-pockets",
@@ -1293,16 +1048,7 @@
       "source": "",
       "createdAt": "2026-05-20T07:47:48Z",
       "updatedAt": "2026-05-20T07:47:48Z",
-      "cookLog": [
-        {
-          "id": "chive-pockets-c1",
-          "date": "2026-10-14"
-        },
-        {
-          "id": "chive-pockets-c2",
-          "date": "2026-09-02"
-        }
-      ]
+      "cookLog": []
     }
   ]
 }
