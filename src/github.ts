@@ -34,6 +34,8 @@ async function api<T>(path: string, init: RequestInit = {}, accept = 'applicatio
   if (!token) throw new GitHubError(401, 'No GitHub token saved. Add one in Settings.')
   const res = await fetch(`${API_BASE}${path}`, {
     ...init,
+    // GitHub replies with max-age=60; a cached ref lookup makes the next commit fail as "not a fast forward".
+    cache: 'no-store',
     headers: {
       Accept: accept,
       Authorization: `Bearer ${token}`,

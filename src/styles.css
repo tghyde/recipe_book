@@ -191,6 +191,22 @@ img {
 .btn-danger:hover {
   background: var(--terra-soft);
 }
+.btn-danger-solid {
+  background: var(--terra);
+  color: #fff;
+}
+.confirm-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  animation: fade-in 0.15s ease;
+}
+.confirm-q {
+  font-size: 0.9rem;
+  color: var(--terra);
+  font-weight: 600;
+}
 .btn-toggle.on {
   background: var(--terra-soft);
   color: var(--terra);

@@ -156,8 +156,9 @@ function serialize(file: { recipes: Recipe[] }): string {
 }
 
 /**
- * Applies a change locally right away, then commits it. If the other phone committed in the
- * meantime, the latest recipes are re-fetched and the change is re-applied on top (up to 4 tries).
+ * Applies a change locally right away, then commits it. Every attempt re-reads the server copy and
+ * applies the change on top of it, so a phone holding a stale cache can never push old data back up,
+ * and if the other phone commits in between the change is simply re-applied (up to 4 tries).
  * Mutators must be idempotent: they may be applied more than once.
  * If the commit fails for good, the local copy is reverted so nothing looks saved that isn't.
  */
@@ -171,9 +172,7 @@ export function commit(job: Job): Promise<void> {
     let lastErr: unknown = null
     for (let attempt = 0; attempt < 4; attempt++) {
       try {
-        // First try builds on the local copy; retries rebuild from the server copy so we never
-        // overwrite the other phone's edits.
-        const base = attempt === 0 ? state.recipes : (await fetchRecipeFile()).recipes
+        const base = (await fetchRecipeFile()).recipes
         const next = sortRecipes(job.mutate(base))
         const changes: FileChange[] = [...job.files, { path: DATA_PATH, content: serialize({ recipes: next }) }]
         await commitFiles(job.message, changes)

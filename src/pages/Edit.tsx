@@ -1,4 +1,5 @@
 import { useMemo, useState, type ChangeEvent, type PointerEvent as ReactPointerEvent } from 'react'
+import { ConfirmButton } from '../components/ConfirmButton'
 import { Icon } from '../components/Icons'
 import { Photo } from '../components/Photo'
 import { TagInput } from '../components/TagInput'
@@ -153,7 +154,6 @@ function EditForm({ existing, recipes, canSave, presetWant }: { existing?: Recip
 
   const remove = () => {
     if (!existing) return
-    if (!confirm(`Delete “${existing.title}” and its photos? This can’t be undone.`)) return
     void deleteRecipe(existing)
     navigate(href.home)
   }
@@ -260,9 +260,9 @@ function EditForm({ existing, recipes, canSave, presetWant }: { existing?: Recip
 
           {!isNew && (
             <div>
-              <button type="button" className="btn btn-danger" onClick={remove} disabled={!canSave}>
+              <ConfirmButton className="btn btn-danger" question="Delete it and its photos? This can’t be undone." confirmLabel="Delete" onConfirm={remove} disabled={!canSave}>
                 <Icon.Trash /> Delete recipe
-              </button>
+              </ConfirmButton>
             </div>
           )}
         </form>

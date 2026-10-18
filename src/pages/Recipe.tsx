@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Icon } from '../components/Icons'
 import { Photo } from '../components/Photo'
+import { ConfirmButton } from '../components/ConfirmButton'
 import { Sheet } from '../components/Sheet'
 import { TopBar } from '../components/TopBar'
 import { href, navigate } from '../router'
@@ -44,9 +45,6 @@ export function Recipe({ id }: { id: string }) {
     navigate(href.home)
   }
 
-  const removeEntry = (entryId: string) => {
-    if (confirm('Remove this entry from the cook history?')) void removeCook(recipe.id, entryId)
-  }
 
   return (
     <>
@@ -168,9 +166,9 @@ export function Recipe({ id }: { id: string }) {
                         {c.note && <div className="note">{c.note}</div>}
                       </button>
                       {token && (
-                        <button className="remove" aria-label="Remove entry" onClick={() => removeEntry(c.id)}>
+                        <ConfirmButton className="remove" ariaLabel="Remove entry" question="Remove this?" onConfirm={() => void removeCook(recipe.id, c.id)}>
                           <Icon.Trash />
-                        </button>
+                        </ConfirmButton>
                       )}
                     </li>
                   ))}
