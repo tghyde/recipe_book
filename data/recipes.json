@@ -2,715 +2,562 @@
   "version": 1,
   "recipes": [
     {
-      "id": "chive-pockets",
-      "title": "Chive and egg pockets",
-      "description": "Crisp pan-fried pockets with a soy, vinegar and chilli dipping sauce.",
+      "id": "potato-salad",
+      "title": "Picnic potato salad",
+      "description": "Creamy potato salad with dill. Travels well.",
       "ingredients": [
-        "300g flour",
-        "Garlic chives, a big bunch",
-        "3 eggs, scrambled",
-        "Glass noodles, soaked",
-        "Sesame oil, soy, black vinegar",
-        "Chilli crisp"
-      ],
-      "steps": [
-        "Mix flour with hot water, rest the dough 30 minutes.",
-        "Scramble the eggs, chop with chives and noodles, season with sesame oil and salt.",
-        "Roll thin rounds, fill, fold over and crimp.",
-        "Pan-fry in a little oil until golden on both sides."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "dumplings",
-        "weekend"
-      ],
-      "photos": [
-        "photos/chive-pockets/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-05-20T07:47:48Z",
-      "updatedAt": "2026-05-20T07:47:48Z",
-      "cookLog": [
-        {
-          "id": "chive-pockets-c1",
-          "date": "2026-10-14"
-        },
-        {
-          "id": "chive-pockets-c2",
-          "date": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "mezze-night",
-      "title": "Mezze night",
-      "description": "Hummus, baba ganoush, warm flatbreads and whatever is in the fridge on a board.",
-      "ingredients": [
-        "Tin of chickpeas",
-        "Tahini",
-        "2 aubergines",
-        "Lemon, garlic, olive oil",
-        "Flatbread dough or shop pitas",
-        "Carrots, peppers, cucumber, figs",
-        "Prosciutto and cheese if feeling fancy"
-      ],
-      "steps": [
-        "Char the aubergines over the flame until collapsed, scoop and mash with tahini and lemon.",
-        "Blend chickpeas with tahini, lemon, garlic and ice water until silky.",
-        "Cook flatbreads in a screaming hot dry pan.",
-        "Arrange everything on a board and let people pick."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "vegetarian",
-        "sharing",
-        "weekend"
-      ],
-      "photos": [
-        "photos/mezze-night/1.jpg",
-        "photos/mezze-night/2.jpg",
-        "photos/mezze-night/3.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-05-24T05:47:48Z",
-      "updatedAt": "2026-05-24T05:47:48Z",
-      "cookLog": [
-        {
-          "id": "mezze-night-c1",
-          "date": "2026-10-05"
-        }
-      ]
-    },
-    {
-      "id": "fish-broccolini",
-      "title": "Seared fish with charred broccolini",
-      "description": "Quick weeknight fish with a lemony pan sauce.",
-      "ingredients": [
-        "2 white fish fillets",
-        "Bunch of broccolini",
-        "Butter",
-        "Lemon",
-        "Garlic",
-        "Chilli flakes"
-      ],
-      "steps": [
-        "Char the broccolini in a hot pan with oil, garlic and chilli. Set aside.",
-        "Pat the fish dry, season, sear skin side down until crisp, flip for a minute.",
-        "Add butter and lemon to the pan, spoon over the fish."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "fish",
-        "weeknight",
-        "quick"
-      ],
-      "photos": [
-        "photos/fish-broccolini/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-05-28T15:47:48Z",
-      "updatedAt": "2026-05-28T15:47:48Z",
-      "cookLog": [
-        {
-          "id": "fish-broccolini-c1",
-          "date": "2026-09-27"
-        }
-      ]
-    },
-    {
-      "id": "avocado-toast-figs",
-      "title": "Avocado toast with jammy eggs and figs",
-      "description": "Breakfast for a slow Sunday.",
-      "ingredients": [
-        "Sourdough",
-        "1 ripe avocado",
-        "2 eggs",
-        "Fresh figs",
-        "Microgreens",
-        "Chilli flakes, flaky salt"
-      ],
-      "steps": [
-        "Boil the eggs for 6 and a half minutes, then into cold water.",
-        "Toast the bread, smash avocado on top with salt and lemon.",
-        "Top with halved eggs, sliced figs and greens."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "breakfast",
-        "vegetarian",
-        "quick"
-      ],
-      "photos": [
-        "photos/avocado-toast-figs/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-01T14:47:48Z",
-      "updatedAt": "2026-06-01T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "avocado-toast-figs-c1",
-          "date": "2026-10-12",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "avocado-toast-figs-c2",
-          "date": "2026-09-17"
-        },
-        {
-          "id": "avocado-toast-figs-c3",
-          "date": "2026-08-08"
-        }
-      ]
-    },
-    {
-      "id": "crispy-prawns",
-      "title": "Crispy sweet and sour prawns",
-      "description": "Battered prawns tossed in a sticky sauce with shredded carrot.",
-      "ingredients": [
-        "400g prawns",
-        "Cornflour",
-        "1 egg",
-        "Rice vinegar, sugar, soy",
-        "Ketchup",
-        "Carrot, shredded",
+        "1kg waxy potatoes",
+        "Mayonnaise",
+        "Fresh dill",
+        "Mustard",
         "Spring onion"
       ],
       "steps": [
-        "Coat prawns in egg then cornflour, fry until crisp.",
-        "Simmer the sauce until glossy.",
-        "Toss prawns and carrot in the sauce, finish with spring onion."
+        "Boil potatoes until just tender, cool slightly.",
+        "Fold through mayo, mustard, pickles and dill.",
+        "Chill before serving. Test."
       ],
-      "notes": "Details made up for testing, edit me.",
+      "notes": "Details made up for testing, edit me. Hi!",
       "tags": [
-        "chinese",
-        "seafood",
-        "fried"
-      ],
-      "photos": [
-        "photos/crispy-prawns/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-05T01:47:48Z",
-      "updatedAt": "2026-06-05T01:47:48Z",
-      "cookLog": []
-    },
-    {
-      "id": "tuna-poke",
-      "title": "Tuna poke bowl",
-      "description": "Cubed tuna with sesame, nori and a soy dressing.",
-      "ingredients": [
-        "300g sashimi-grade tuna",
-        "Soy sauce",
-        "Sesame oil",
-        "Spring onion",
-        "Nori, snipped",
-        "Toasted sesame seeds",
-        "Rice"
-      ],
-      "steps": [
-        "Cube the tuna.",
-        "Toss with soy, sesame oil, spring onion and nori.",
-        "Serve over warm rice with extra sesame."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "japanese",
-        "fish",
-        "quick",
-        "no-cook"
-      ],
-      "photos": [
-        "photos/tuna-poke/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-09T11:47:48Z",
-      "updatedAt": "2026-06-09T11:47:48Z",
-      "cookLog": [
-        {
-          "id": "tuna-poke-c1",
-          "date": "2026-10-09",
-          "note": "A bit dry, less time next go."
-        }
-      ]
-    },
-    {
-      "id": "mushroom-rigatoni",
-      "title": "Rigatoni with mushrooms",
-      "description": "Big pasta tubes with a buttery mushroom sauce.",
-      "ingredients": [
-        "300g rigatoni",
-        "400g mixed mushrooms",
-        "Butter",
-        "Garlic",
-        "Thyme",
-        "Parmesan",
-        "Splash of cream"
-      ],
-      "steps": [
-        "Fry mushrooms hard in butter until browned, add garlic and thyme.",
-        "Cook the pasta, keep a mug of the water.",
-        "Toss everything with parmesan, cream and pasta water."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pasta",
-        "vegetarian",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/mushroom-rigatoni/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-13T04:47:48Z",
-      "updatedAt": "2026-06-13T04:47:48Z",
-      "cookLog": [
-        {
-          "id": "mushroom-rigatoni-c1",
-          "date": "2026-10-02",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "mushroom-rigatoni-c2",
-          "date": "2026-08-18"
-        }
-      ]
-    },
-    {
-      "id": "chicken-noodles",
-      "title": "Chicken stir-fried noodles",
-      "description": "Thick noodles, chicken thigh and lots of wok heat.",
-      "ingredients": [
-        "Thick wheat noodles",
-        "2 chicken thighs, sliced",
-        "Soy, oyster sauce",
-        "Garlic, ginger",
-        "Cabbage",
-        "Spring onion"
-      ],
-      "steps": [
-        "Marinate chicken briefly in soy and cornflour.",
-        "Stir-fry chicken, then aromatics, then cabbage.",
-        "Add noodles and sauces, toss until everything is glossy."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "noodles",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/chicken-noodles/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-17T00:47:48Z",
-      "updatedAt": "2026-06-17T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "chicken-noodles-c1",
-          "date": "2026-10-15",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "chicken-noodles-c2",
-          "date": "2026-09-25"
-        },
-        {
-          "id": "chicken-noodles-c3",
-          "date": "2026-08-28"
-        }
-      ]
-    },
-    {
-      "id": "egg-fried-rice",
-      "title": "Egg fried rice",
-      "description": "Day-old rice, eggs, spring onion. The one everyone wants.",
-      "ingredients": [
-        "3 cups cold cooked rice",
-        "3 eggs",
-        "Spring onion",
-        "Soy sauce",
-        "Peas or carrot",
-        "Neutral oil"
-      ],
-      "steps": [
-        "Scramble the eggs in a hot wok, break up and set aside.",
-        "Fry the rice hard until it crackles.",
-        "Add eggs, veg, soy and spring onion, toss."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "rice",
-        "quick",
+        "salad",
+        "picnic",
+        "summer",
         "vegetarian"
       ],
       "photos": [
-        "photos/egg-fried-rice/1.jpg"
+        "photos/potato-salad/1.jpg"
       ],
       "source": "",
-      "createdAt": "2026-06-21T10:47:48Z",
-      "updatedAt": "2026-06-21T10:47:48Z",
+      "createdAt": "2026-08-28T10:47:48Z",
+      "updatedAt": "2026-10-18T13:10:57.037Z",
       "cookLog": [
         {
-          "id": "egg-fried-rice-c1",
-          "date": "2026-10-16"
-        },
-        {
-          "id": "egg-fried-rice-c2",
-          "date": "2026-10-08"
-        },
-        {
-          "id": "egg-fried-rice-c3",
-          "date": "2026-09-14"
-        },
-        {
-          "id": "egg-fried-rice-c4",
-          "date": "2026-07-29"
+          "id": "potato-salad-c1",
+          "date": "2026-07-09",
+          "note": "Everyone had seconds."
         }
       ]
     },
     {
-      "id": "wonton-soup",
-      "title": "Wonton soup",
-      "description": "Pork and prawn wontons in a clear broth with seaweed.",
+      "id": "claypot-beef-peppers",
+      "title": "Clay pot braised beef with peppers",
+      "description": "Dark, sticky braised beef in the clay pot, with a stir-fry of peppers and pork.",
       "ingredients": [
-        "Wonton wrappers",
-        "250g pork mince",
-        "100g prawns, chopped",
-        "Ginger, spring onion",
-        "Chicken stock",
-        "Dried seaweed",
-        "White pepper"
+        "700g beef shin",
+        "Dark soy, soy",
+        "Rock sugar",
+        "Ginger, garlic, star anise",
+        "Green peppers",
+        "Shaoxing wine"
       ],
       "steps": [
-        "Mix filling with soy, sesame oil and white pepper.",
-        "Fold wontons, freeze any extras.",
-        "Simmer in stock with seaweed for 4 minutes."
+        "Brown beef, add aromatics and wine.",
+        "Braise in the clay pot for 2 hours until sticky.",
+        "Stir-fry peppers separately with garlic."
       ],
       "notes": "Details made up for testing, edit me.",
       "tags": [
         "chinese",
-        "soup",
-        "dumplings"
+        "beef",
+        "weekend"
       ],
       "photos": [
-        "photos/wonton-soup/1.jpg"
+        "photos/claypot-beef-peppers/1.jpg"
       ],
       "source": "",
-      "createdAt": "2026-06-24T23:47:48Z",
-      "updatedAt": "2026-06-24T23:47:48Z",
+      "createdAt": "2026-09-29T07:47:48Z",
+      "updatedAt": "2026-09-29T07:47:48Z",
       "cookLog": [
         {
-          "id": "wonton-soup-c1",
-          "date": "2026-09-29"
+          "id": "claypot-beef-peppers-c1",
+          "date": "2026-09-16",
+          "note": "Everyone had seconds."
         }
       ]
     },
     {
-      "id": "chicken-meatballs-kale",
-      "title": "Chicken meatballs with kale salad",
-      "description": "Meatballs with a crunchy kale and apple salad.",
+      "id": "carrot-beef-stew-black-rice",
+      "title": "Carrot beef stew with black rice",
+      "description": "A loose, brothy beef stew with big carrot chunks over black rice.",
       "ingredients": [
-        "500g chicken mince",
-        "Breadcrumbs",
-        "1 egg",
-        "Parmesan",
-        "Kale",
-        "1 apple",
-        "Lemon, olive oil"
-      ],
-      "steps": [
-        "Mix meatballs, roll, fry until browned then finish in the oven.",
-        "Massage kale with lemon, oil and salt.",
-        "Add sliced apple and serve alongside."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chicken",
-        "salad",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/chicken-meatballs-kale/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-06-28T23:47:48Z",
-      "updatedAt": "2026-06-28T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "chicken-meatballs-kale-c1",
-          "date": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "id": "weeknight-ragu",
-      "title": "Weeknight ragù",
-      "description": "A quick mince sauce for pasta or rice. Freezes well.",
-      "ingredients": [
-        "500g beef mince",
-        "1 onion, 1 carrot",
-        "Tin of tomatoes",
-        "Tomato paste",
-        "Garlic",
-        "Red wine if open"
-      ],
-      "steps": [
-        "Brown the mince hard.",
-        "Add veg and cook down, then paste, wine and tomatoes.",
-        "Simmer 40 minutes, season."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pasta",
-        "weeknight",
-        "freezer"
-      ],
-      "photos": [
-        "photos/weeknight-ragu/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-03T16:47:48Z",
-      "updatedAt": "2026-07-03T16:47:48Z",
-      "cookLog": [
-        {
-          "id": "weeknight-ragu-c1",
-          "date": "2026-10-11"
-        },
-        {
-          "id": "weeknight-ragu-c2",
-          "date": "2026-09-07"
-        },
-        {
-          "id": "weeknight-ragu-c3",
-          "date": "2026-07-14"
-        }
-      ]
-    },
-    {
-      "id": "sticky-ribs-cabbage",
-      "title": "Sticky pork ribs with charred cabbage",
-      "description": "Oven ribs with a hoisin glaze and a wedge of charred cabbage.",
-      "ingredients": [
-        "Rack of pork ribs",
-        "Hoisin",
-        "Honey",
-        "Soy, rice vinegar",
-        "Five spice",
-        "Half a cabbage"
-      ],
-      "steps": [
-        "Rub ribs with five spice, roast low for 2 hours wrapped in foil.",
-        "Glaze and blast hot until sticky.",
-        "Char cabbage wedges in a hot pan."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pork",
-        "weekend",
-        "roast"
-      ],
-      "photos": [
-        "photos/sticky-ribs-cabbage/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-07T16:47:48Z",
-      "updatedAt": "2026-07-07T16:47:48Z",
-      "cookLog": [
-        {
-          "id": "sticky-ribs-cabbage-c1",
-          "date": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "id": "pork-meatballs-greens",
-      "title": "Pork meatballs with greens and squash",
-      "description": "Ginger pork meatballs with wilted greens.",
-      "ingredients": [
-        "500g pork mince",
-        "Ginger, garlic",
-        "Spring onion",
-        "Soy",
-        "Bunch of greens",
-        "Squash, roasted"
-      ],
-      "steps": [
-        "Season mince, roll, brown in a pan.",
-        "Add greens and a splash of water, cover to wilt.",
-        "Serve with roasted squash."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pork",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/pork-meatballs-greens/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-11T13:47:48Z",
-      "updatedAt": "2026-07-11T13:47:48Z",
-      "cookLog": []
-    },
-    {
-      "id": "prawn-skewers",
-      "title": "Grilled prawn skewers",
-      "description": "Whole prawns on sticks, grilled until the shells char.",
-      "ingredients": [
-        "12 large shell-on prawns",
-        "Garlic butter",
-        "Lemon",
-        "Chilli",
-        "Skewers"
-      ],
-      "steps": [
-        "Skewer the prawns straight.",
-        "Grill hot, 2 minutes a side, basting with garlic butter.",
-        "Squeeze lemon over."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "seafood",
-        "grill",
-        "summer"
-      ],
-      "photos": [
-        "photos/prawn-skewers/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-15T08:47:48Z",
-      "updatedAt": "2026-07-15T08:47:48Z",
-      "cookLog": [
-        {
-          "id": "prawn-skewers-c1",
-          "date": "2026-06-29",
-          "note": "Doubled the garlic, good call."
-        }
-      ]
-    },
-    {
-      "id": "sesame-tofu",
-      "title": "Sesame-crusted tofu with soy glaze",
-      "description": "Firm tofu in a sesame crust with a sticky sauce.",
-      "ingredients": [
-        "Block of firm tofu",
-        "Sesame seeds",
-        "Cornflour",
-        "Soy, mirin, sugar",
-        "Spring onion"
-      ],
-      "steps": [
-        "Press the tofu, cut into slabs.",
-        "Coat in cornflour and sesame, pan-fry until golden.",
-        "Reduce soy, mirin and sugar to a glaze, pour over."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "vegetarian",
-        "tofu",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/sesame-tofu/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-18T23:47:48Z",
-      "updatedAt": "2026-07-18T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "sesame-tofu-c1",
-          "date": "2026-10-03",
-          "note": "Needs more salt than you think."
-        }
-      ]
-    },
-    {
-      "id": "kimchi-tofu-stew",
-      "title": "Kimchi tofu stew",
-      "description": "Spicy, sour and warming. Best with old kimchi.",
-      "ingredients": [
-        "2 cups old kimchi",
-        "Block of silken tofu",
-        "Pork belly or mushrooms",
-        "Gochugaru, gochujang",
+        "500g stewing beef",
+        "4 carrots",
+        "Onion, garlic",
         "Stock",
-        "Spring onion, coriander"
+        "Coriander",
+        "Black rice"
       ],
       "steps": [
-        "Fry kimchi and pork in a pot.",
-        "Add stock and chilli, simmer 15 minutes.",
-        "Slide in tofu, top with coriander."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "korean",
-        "soup",
-        "tofu",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/kimchi-tofu-stew/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-07-23T14:47:48Z",
-      "updatedAt": "2026-07-23T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "kimchi-tofu-stew-c1",
-          "date": "2026-10-13"
-        },
-        {
-          "id": "kimchi-tofu-stew-c2",
-          "date": "2026-09-22"
-        }
-      ]
-    },
-    {
-      "id": "beef-potato-stew",
-      "title": "Beef and potato stew",
-      "description": "Slow braised beef with potatoes that fall apart a little.",
-      "ingredients": [
-        "800g beef chuck, cubed",
-        "4 potatoes",
-        "Onion, garlic, ginger",
-        "Soy, sugar",
-        "Star anise",
-        "Stock"
-      ],
-      "steps": [
-        "Brown the beef in batches.",
-        "Add aromatics, soy, sugar, anise and stock, simmer 1.5 hours.",
-        "Add potatoes for the last 30 minutes."
+        "Brown beef, add onion and garlic.",
+        "Add stock and carrots, simmer 1.5 hours.",
+        "Serve over black rice with coriander."
       ],
       "notes": "Details made up for testing, edit me.",
       "tags": [
         "beef",
         "stew",
-        "weekend",
-        "freezer"
+        "soup"
       ],
       "photos": [
-        "photos/beef-potato-stew/1.jpg",
-        "photos/beef-potato-stew/2.jpg"
+        "photos/carrot-beef-stew-black-rice/1.jpg"
       ],
       "source": "",
-      "createdAt": "2026-07-26T21:47:48Z",
-      "updatedAt": "2026-07-26T21:47:48Z",
+      "createdAt": "2026-09-25T00:47:48Z",
+      "updatedAt": "2026-09-25T00:47:48Z",
       "cookLog": [
         {
-          "id": "beef-potato-stew-c1",
-          "date": "2026-10-07",
+          "id": "carrot-beef-stew-black-rice-c1",
+          "date": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "id": "oyakodon",
+      "title": "Chicken and egg rice bowl",
+      "description": "Oyakodon: chicken simmered in dashi and soy, eggs stirred in at the end.",
+      "ingredients": [
+        "2 chicken thighs",
+        "1 onion",
+        "Dashi",
+        "Soy, mirin, sugar",
+        "3 eggs",
+        "Rice"
+      ],
+      "steps": [
+        "Simmer onion and chicken in the seasoned dashi.",
+        "Pour beaten egg over, cover until just set.",
+        "Slide onto rice."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "japanese",
+        "chicken",
+        "rice",
+        "quick"
+      ],
+      "photos": [
+        "photos/oyakodon/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-21T04:47:48Z",
+      "updatedAt": "2026-09-21T04:47:48Z",
+      "cookLog": [
+        {
+          "id": "oyakodon-c1",
+          "date": "2026-09-21",
           "note": "Doubled the garlic, good call."
         },
         {
-          "id": "beef-potato-stew-c2",
-          "date": "2026-08-13"
+          "id": "oyakodon-c2",
+          "date": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "id": "beef-tomato-egg-noodles",
+      "title": "Beef and tomato egg noodles",
+      "description": "Wide noodles with minced beef and tomato egg on top.",
+      "ingredients": [
+        "Wide wheat noodles",
+        "300g beef mince",
+        "3 tomatoes",
+        "3 eggs",
+        "Soy, sugar",
+        "Bok choy"
+      ],
+      "steps": [
+        "Fry the mince with soy until crisp at the edges.",
+        "Make tomato egg in another pan.",
+        "Pile both onto cooked noodles."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "noodles",
+        "beef",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/beef-tomato-egg-noodles/1.jpg",
+        "photos/beef-tomato-egg-noodles/2.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-17T13:47:48Z",
+      "updatedAt": "2026-09-17T13:47:48Z",
+      "cookLog": [
+        {
+          "id": "beef-tomato-egg-noodles-c1",
+          "date": "2026-09-24"
         },
         {
-          "id": "beef-potato-stew-c3",
-          "date": "2026-06-09"
+          "id": "beef-tomato-egg-noodles-c2",
+          "date": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "id": "braised-pork-coriander",
+      "title": "Braised pork with coriander",
+      "description": "Soy-braised pork topped with a pile of fresh coriander.",
+      "ingredients": [
+        "600g pork shoulder",
+        "Soy, dark soy",
+        "Rock sugar",
+        "Ginger, star anise",
+        "Coriander, a big bunch",
+        "Bok choy"
+      ],
+      "steps": [
+        "Blanch pork, then brown.",
+        "Braise with soy, sugar and spices for 1.5 hours.",
+        "Serve heaped with coriander and blanched bok choy."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "pork",
+        "weekend"
+      ],
+      "photos": [
+        "photos/braised-pork-coriander/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-13T12:47:48Z",
+      "updatedAt": "2026-09-13T12:47:48Z",
+      "cookLog": [
+        {
+          "id": "braised-pork-coriander-c1",
+          "date": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "id": "shrimp-fried-rice",
+      "title": "Shrimp fried rice with bok choy",
+      "description": "Fried rice with prawns, egg and corn, bok choy on the side.",
+      "ingredients": [
+        "Cold cooked rice",
+        "200g prawns",
+        "2 eggs",
+        "Sweetcorn, peas",
+        "Bok choy",
+        "Soy, white pepper"
+      ],
+      "steps": [
+        "Sear prawns and set aside.",
+        "Fry eggs and rice hard, add veg and soy.",
+        "Return prawns, serve with blanched bok choy."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "rice",
+        "seafood",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/shrimp-fried-rice/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-09T14:47:48Z",
+      "updatedAt": "2026-09-09T14:47:48Z",
+      "cookLog": [
+        {
+          "id": "shrimp-fried-rice-c1",
+          "date": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "cumin-beef-green-beans",
+      "title": "Cumin beef with green beans",
+      "description": "Spiced beef with spring onion, and dry-fried green beans on the side.",
+      "ingredients": [
+        "400g beef, thinly sliced",
+        "Cumin seeds",
+        "Chilli flakes",
+        "Spring onion",
+        "Green beans",
+        "Garlic"
+      ],
+      "steps": [
+        "Marinate beef with soy and cornflour.",
+        "Dry-fry green beans until blistered, set aside.",
+        "Stir-fry beef hot with cumin and chilli, add spring onion."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "beef",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/cumin-beef-green-beans/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-05T03:47:48Z",
+      "updatedAt": "2026-09-05T03:47:48Z",
+      "cookLog": [
+        {
+          "id": "cumin-beef-green-beans-c1",
+          "date": "2026-10-04",
+          "note": "Doubled the garlic, good call."
+        },
+        {
+          "id": "cumin-beef-green-beans-c2",
+          "date": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "id": "pepperoni-pizza",
+      "title": "Homemade pepperoni pizza",
+      "description": "Pizza night. Eggs on top for one of us.",
+      "ingredients": [
+        "Pizza dough",
+        "Passata",
+        "Mozzarella",
+        "Pepperoni",
+        "Basil",
+        "Eggs, optional"
+      ],
+      "steps": [
+        "Stretch dough on a hot tray or stone.",
+        "Top lightly, bake as hot as the oven goes.",
+        "Crack an egg on halfway if wanted."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pizza",
+        "weekend",
+        "sharing"
+      ],
+      "photos": [
+        "photos/pepperoni-pizza/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-09-01T01:47:48Z",
+      "updatedAt": "2026-09-01T01:47:48Z",
+      "cookLog": [
+        {
+          "id": "pepperoni-pizza-c1",
+          "date": "2026-09-18",
+          "note": "Everyone had seconds."
+        }
+      ]
+    },
+    {
+      "id": "salmon-black-rice",
+      "title": "Salmon bowl with black rice",
+      "description": "Crispy salmon, black rice, edamame and cucumber.",
+      "ingredients": [
+        "2 salmon fillets",
+        "Black rice",
+        "Edamame",
+        "Cucumber",
+        "Soy, sesame"
+      ],
+      "steps": [
+        "Cook black rice (it takes 35 minutes).",
+        "Sear salmon skin side down until crisp.",
+        "Build bowls, drizzle soy and sesame."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "fish",
+        "rice",
+        "healthy",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/salmon-black-rice/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-24T12:47:48Z",
+      "updatedAt": "2026-08-24T12:47:48Z",
+      "cookLog": [
+        {
+          "id": "salmon-black-rice-c1",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "eggplant-pork",
+      "title": "Eggplant and pork stir-fry",
+      "description": "Soft aubergine with a garlicky pork sauce.",
+      "ingredients": [
+        "2 aubergines",
+        "200g pork mince",
+        "Garlic, ginger",
+        "Doubanjiang",
+        "Soy, sugar, vinegar",
+        "Green beans"
+      ],
+      "steps": [
+        "Fry aubergine until collapsed, remove.",
+        "Fry pork with chilli bean paste and aromatics.",
+        "Return aubergine with sauce, simmer until glossy."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "pork",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/eggplant-pork/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-20T03:47:48Z",
+      "updatedAt": "2026-08-20T03:47:48Z",
+      "cookLog": [
+        {
+          "id": "eggplant-pork-c1",
+          "date": "2026-10-06",
+          "note": "Needs more salt than you think."
+        },
+        {
+          "id": "eggplant-pork-c2",
+          "date": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "id": "bibimbap",
+      "title": "Stone pot bibimbap",
+      "description": "Crispy rice in a hot stone bowl with beef, egg and vegetables.",
+      "ingredients": [
+        "Cooked rice",
+        "Beef, thinly sliced",
+        "Carrot, spinach, bean sprouts",
+        "1 egg",
+        "Gochujang",
+        "Sesame oil"
+      ],
+      "steps": [
+        "Season each vegetable separately.",
+        "Oil the stone pot, press rice in, heat until it crackles.",
+        "Arrange toppings, crack an egg, serve with gochujang."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "korean",
+        "rice",
+        "weekend"
+      ],
+      "photos": [
+        "photos/bibimbap/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-16T03:47:48Z",
+      "updatedAt": "2026-08-16T03:47:48Z",
+      "cookLog": [
+        {
+          "id": "bibimbap-c1",
+          "date": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "id": "roast-whole-fish",
+      "title": "Whole roasted branzino",
+      "description": "A whole fish on a tray, high heat, lemon inside.",
+      "ingredients": [
+        "1 whole sea bass",
+        "Lemon",
+        "Garlic",
+        "Olive oil",
+        "Herbs"
+      ],
+      "steps": [
+        "Score the fish, stuff with lemon and herbs.",
+        "Roast at 220°C for 20 minutes.",
+        "Rest 5 minutes before serving."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "fish",
+        "roast",
+        "weekend"
+      ],
+      "photos": [
+        "photos/roast-whole-fish/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-12T00:47:48Z",
+      "updatedAt": "2026-08-12T00:47:48Z",
+      "cookLog": [
+        {
+          "id": "roast-whole-fish-c1",
+          "date": "2026-09-09",
+          "note": "Everyone had seconds."
+        }
+      ]
+    },
+    {
+      "id": "rice-cakes",
+      "title": "Stir-fried rice cakes with scallops",
+      "description": "Chewy rice cakes in a savoury sauce.",
+      "ingredients": [
+        "Sliced rice cakes",
+        "Scallops",
+        "Soy, oyster sauce",
+        "Garlic",
+        "Greens"
+      ],
+      "steps": [
+        "Soak rice cakes, sear scallops and set aside.",
+        "Stir-fry rice cakes with garlic and sauce.",
+        "Return scallops, toss."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "quick",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/rice-cakes/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-08T02:47:48Z",
+      "updatedAt": "2026-08-08T02:47:48Z",
+      "cookLog": []
+    },
+    {
+      "id": "tuna-broccoli-salad",
+      "title": "Tuna and broccoli salad",
+      "description": "Big salad with tinned tuna, steamed broccoli and sesame dressing.",
+      "ingredients": [
+        "2 tins tuna",
+        "Head of broccoli",
+        "Cherry tomatoes",
+        "Mixed leaves",
+        "Sesame dressing"
+      ],
+      "steps": [
+        "Steam broccoli 3 minutes.",
+        "Toss everything with dressing."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "salad",
+        "fish",
+        "quick",
+        "lunch"
+      ],
+      "photos": [
+        "photos/tuna-broccoli-salad/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-08-03T23:47:48Z",
+      "updatedAt": "2026-08-03T23:47:48Z",
+      "cookLog": [
+        {
+          "id": "tuna-broccoli-salad-c1",
+          "date": "2026-10-01",
+          "note": "Needs more salt than you think."
         }
       ]
     },
@@ -769,563 +616,715 @@
       ]
     },
     {
-      "id": "tuna-broccoli-salad",
-      "title": "Tuna and broccoli salad",
-      "description": "Big salad with tinned tuna, steamed broccoli and sesame dressing.",
+      "id": "beef-potato-stew",
+      "title": "Beef and potato stew",
+      "description": "Slow braised beef with potatoes that fall apart a little.",
       "ingredients": [
-        "2 tins tuna",
-        "Head of broccoli",
-        "Cherry tomatoes",
-        "Mixed leaves",
-        "Sesame dressing"
-      ],
-      "steps": [
-        "Steam broccoli 3 minutes.",
-        "Toss everything with dressing."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "salad",
-        "fish",
-        "quick",
-        "lunch"
-      ],
-      "photos": [
-        "photos/tuna-broccoli-salad/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-03T23:47:48Z",
-      "updatedAt": "2026-08-03T23:47:48Z",
-      "cookLog": [
-        {
-          "id": "tuna-broccoli-salad-c1",
-          "date": "2026-10-01",
-          "note": "Needs more salt than you think."
-        }
-      ]
-    },
-    {
-      "id": "rice-cakes",
-      "title": "Stir-fried rice cakes with scallops",
-      "description": "Chewy rice cakes in a savoury sauce.",
-      "ingredients": [
-        "Sliced rice cakes",
-        "Scallops",
-        "Soy, oyster sauce",
-        "Garlic",
-        "Greens"
-      ],
-      "steps": [
-        "Soak rice cakes, sear scallops and set aside.",
-        "Stir-fry rice cakes with garlic and sauce.",
-        "Return scallops, toss."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "quick",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/rice-cakes/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-08T02:47:48Z",
-      "updatedAt": "2026-08-08T02:47:48Z",
-      "cookLog": []
-    },
-    {
-      "id": "roast-whole-fish",
-      "title": "Whole roasted branzino",
-      "description": "A whole fish on a tray, high heat, lemon inside.",
-      "ingredients": [
-        "1 whole sea bass",
-        "Lemon",
-        "Garlic",
-        "Olive oil",
-        "Herbs"
-      ],
-      "steps": [
-        "Score the fish, stuff with lemon and herbs.",
-        "Roast at 220°C for 20 minutes.",
-        "Rest 5 minutes before serving."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "fish",
-        "roast",
-        "weekend"
-      ],
-      "photos": [
-        "photos/roast-whole-fish/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-12T00:47:48Z",
-      "updatedAt": "2026-08-12T00:47:48Z",
-      "cookLog": [
-        {
-          "id": "roast-whole-fish-c1",
-          "date": "2026-09-09",
-          "note": "Everyone had seconds."
-        }
-      ]
-    },
-    {
-      "id": "bibimbap",
-      "title": "Stone pot bibimbap",
-      "description": "Crispy rice in a hot stone bowl with beef, egg and vegetables.",
-      "ingredients": [
-        "Cooked rice",
-        "Beef, thinly sliced",
-        "Carrot, spinach, bean sprouts",
-        "1 egg",
-        "Gochujang",
-        "Sesame oil"
-      ],
-      "steps": [
-        "Season each vegetable separately.",
-        "Oil the stone pot, press rice in, heat until it crackles.",
-        "Arrange toppings, crack an egg, serve with gochujang."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "korean",
-        "rice",
-        "weekend"
-      ],
-      "photos": [
-        "photos/bibimbap/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-16T03:47:48Z",
-      "updatedAt": "2026-08-16T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "bibimbap-c1",
-          "date": "2026-08-03"
-        }
-      ]
-    },
-    {
-      "id": "eggplant-pork",
-      "title": "Eggplant and pork stir-fry",
-      "description": "Soft aubergine with a garlicky pork sauce.",
-      "ingredients": [
-        "2 aubergines",
-        "200g pork mince",
-        "Garlic, ginger",
-        "Doubanjiang",
-        "Soy, sugar, vinegar",
-        "Green beans"
-      ],
-      "steps": [
-        "Fry aubergine until collapsed, remove.",
-        "Fry pork with chilli bean paste and aromatics.",
-        "Return aubergine with sauce, simmer until glossy."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "pork",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/eggplant-pork/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-20T03:47:48Z",
-      "updatedAt": "2026-08-20T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "eggplant-pork-c1",
-          "date": "2026-10-06",
-          "note": "Needs more salt than you think."
-        },
-        {
-          "id": "eggplant-pork-c2",
-          "date": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "id": "salmon-black-rice",
-      "title": "Salmon bowl with black rice",
-      "description": "Crispy salmon, black rice, edamame and cucumber.",
-      "ingredients": [
-        "2 salmon fillets",
-        "Black rice",
-        "Edamame",
-        "Cucumber",
-        "Soy, sesame"
-      ],
-      "steps": [
-        "Cook black rice (it takes 35 minutes).",
-        "Sear salmon skin side down until crisp.",
-        "Build bowls, drizzle soy and sesame."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "fish",
-        "rice",
-        "healthy",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/salmon-black-rice/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-24T12:47:48Z",
-      "updatedAt": "2026-08-24T12:47:48Z",
-      "cookLog": [
-        {
-          "id": "salmon-black-rice-c1",
-          "date": "2026-09-28"
-        }
-      ]
-    },
-    {
-      "id": "potato-salad",
-      "title": "Picnic potato salad",
-      "description": "Creamy potato salad with dill. Travels well.",
-      "ingredients": [
-        "1kg waxy potatoes",
-        "Mayonnaise",
-        "Dill pickles",
-        "Fresh dill",
-        "Mustard",
-        "Spring onion"
-      ],
-      "steps": [
-        "Boil potatoes until just tender, cool slightly.",
-        "Fold through mayo, mustard, pickles and dill.",
-        "Chill before serving."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "salad",
-        "picnic",
-        "summer",
-        "vegetarian"
-      ],
-      "photos": [
-        "photos/potato-salad/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-08-28T10:47:48Z",
-      "updatedAt": "2026-08-28T10:47:48Z",
-      "cookLog": [
-        {
-          "id": "potato-salad-c1",
-          "date": "2026-07-09",
-          "note": "Everyone had seconds."
-        }
-      ]
-    },
-    {
-      "id": "pepperoni-pizza",
-      "title": "Homemade pepperoni pizza",
-      "description": "Pizza night. Eggs on top for one of us.",
-      "ingredients": [
-        "Pizza dough",
-        "Passata",
-        "Mozzarella",
-        "Pepperoni",
-        "Basil",
-        "Eggs, optional"
-      ],
-      "steps": [
-        "Stretch dough on a hot tray or stone.",
-        "Top lightly, bake as hot as the oven goes.",
-        "Crack an egg on halfway if wanted."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "pizza",
-        "weekend",
-        "sharing"
-      ],
-      "photos": [
-        "photos/pepperoni-pizza/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-01T01:47:48Z",
-      "updatedAt": "2026-09-01T01:47:48Z",
-      "cookLog": [
-        {
-          "id": "pepperoni-pizza-c1",
-          "date": "2026-09-18",
-          "note": "Everyone had seconds."
-        }
-      ]
-    },
-    {
-      "id": "cumin-beef-green-beans",
-      "title": "Cumin beef with green beans",
-      "description": "Spiced beef with spring onion, and dry-fried green beans on the side.",
-      "ingredients": [
-        "400g beef, thinly sliced",
-        "Cumin seeds",
-        "Chilli flakes",
-        "Spring onion",
-        "Green beans",
-        "Garlic"
-      ],
-      "steps": [
-        "Marinate beef with soy and cornflour.",
-        "Dry-fry green beans until blistered, set aside.",
-        "Stir-fry beef hot with cumin and chilli, add spring onion."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "beef",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/cumin-beef-green-beans/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-05T03:47:48Z",
-      "updatedAt": "2026-09-05T03:47:48Z",
-      "cookLog": [
-        {
-          "id": "cumin-beef-green-beans-c1",
-          "date": "2026-10-04",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "cumin-beef-green-beans-c2",
-          "date": "2026-08-31"
-        }
-      ]
-    },
-    {
-      "id": "shrimp-fried-rice",
-      "title": "Shrimp fried rice with bok choy",
-      "description": "Fried rice with prawns, egg and corn, bok choy on the side.",
-      "ingredients": [
-        "Cold cooked rice",
-        "200g prawns",
-        "2 eggs",
-        "Sweetcorn, peas",
-        "Bok choy",
-        "Soy, white pepper"
-      ],
-      "steps": [
-        "Sear prawns and set aside.",
-        "Fry eggs and rice hard, add veg and soy.",
-        "Return prawns, serve with blanched bok choy."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "rice",
-        "seafood",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/shrimp-fried-rice/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-09T14:47:48Z",
-      "updatedAt": "2026-09-09T14:47:48Z",
-      "cookLog": [
-        {
-          "id": "shrimp-fried-rice-c1",
-          "date": "2026-09-30"
-        }
-      ]
-    },
-    {
-      "id": "braised-pork-coriander",
-      "title": "Braised pork with coriander",
-      "description": "Soy-braised pork topped with a pile of fresh coriander.",
-      "ingredients": [
-        "600g pork shoulder",
-        "Soy, dark soy",
-        "Rock sugar",
-        "Ginger, star anise",
-        "Coriander, a big bunch",
-        "Bok choy"
-      ],
-      "steps": [
-        "Blanch pork, then brown.",
-        "Braise with soy, sugar and spices for 1.5 hours.",
-        "Serve heaped with coriander and blanched bok choy."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "pork",
-        "weekend"
-      ],
-      "photos": [
-        "photos/braised-pork-coriander/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-13T12:47:48Z",
-      "updatedAt": "2026-09-13T12:47:48Z",
-      "cookLog": [
-        {
-          "id": "braised-pork-coriander-c1",
-          "date": "2026-09-12"
-        }
-      ]
-    },
-    {
-      "id": "beef-tomato-egg-noodles",
-      "title": "Beef and tomato egg noodles",
-      "description": "Wide noodles with minced beef and tomato egg on top.",
-      "ingredients": [
-        "Wide wheat noodles",
-        "300g beef mince",
-        "3 tomatoes",
-        "3 eggs",
+        "800g beef chuck, cubed",
+        "4 potatoes",
+        "Onion, garlic, ginger",
         "Soy, sugar",
-        "Bok choy"
+        "Star anise",
+        "Stock"
       ],
       "steps": [
-        "Fry the mince with soy until crisp at the edges.",
-        "Make tomato egg in another pan.",
-        "Pile both onto cooked noodles."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "noodles",
-        "beef",
-        "weeknight"
-      ],
-      "photos": [
-        "photos/beef-tomato-egg-noodles/1.jpg",
-        "photos/beef-tomato-egg-noodles/2.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-17T13:47:48Z",
-      "updatedAt": "2026-09-17T13:47:48Z",
-      "cookLog": [
-        {
-          "id": "beef-tomato-egg-noodles-c1",
-          "date": "2026-09-24"
-        },
-        {
-          "id": "beef-tomato-egg-noodles-c2",
-          "date": "2026-08-20"
-        }
-      ]
-    },
-    {
-      "id": "oyakodon",
-      "title": "Chicken and egg rice bowl",
-      "description": "Oyakodon: chicken simmered in dashi and soy, eggs stirred in at the end.",
-      "ingredients": [
-        "2 chicken thighs",
-        "1 onion",
-        "Dashi",
-        "Soy, mirin, sugar",
-        "3 eggs",
-        "Rice"
-      ],
-      "steps": [
-        "Simmer onion and chicken in the seasoned dashi.",
-        "Pour beaten egg over, cover until just set.",
-        "Slide onto rice."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "japanese",
-        "chicken",
-        "rice",
-        "quick"
-      ],
-      "photos": [
-        "photos/oyakodon/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-09-21T04:47:48Z",
-      "updatedAt": "2026-09-21T04:47:48Z",
-      "cookLog": [
-        {
-          "id": "oyakodon-c1",
-          "date": "2026-09-21",
-          "note": "Doubled the garlic, good call."
-        },
-        {
-          "id": "oyakodon-c2",
-          "date": "2026-07-24"
-        }
-      ]
-    },
-    {
-      "id": "carrot-beef-stew-black-rice",
-      "title": "Carrot beef stew with black rice",
-      "description": "A loose, brothy beef stew with big carrot chunks over black rice.",
-      "ingredients": [
-        "500g stewing beef",
-        "4 carrots",
-        "Onion, garlic",
-        "Stock",
-        "Coriander",
-        "Black rice"
-      ],
-      "steps": [
-        "Brown beef, add onion and garlic.",
-        "Add stock and carrots, simmer 1.5 hours.",
-        "Serve over black rice with coriander."
+        "Brown the beef in batches.",
+        "Add aromatics, soy, sugar, anise and stock, simmer 1.5 hours.",
+        "Add potatoes for the last 30 minutes."
       ],
       "notes": "Details made up for testing, edit me.",
       "tags": [
         "beef",
         "stew",
-        "soup"
+        "weekend",
+        "freezer"
       ],
       "photos": [
-        "photos/carrot-beef-stew-black-rice/1.jpg"
+        "photos/beef-potato-stew/1.jpg",
+        "photos/beef-potato-stew/2.jpg"
       ],
       "source": "",
-      "createdAt": "2026-09-25T00:47:48Z",
-      "updatedAt": "2026-09-25T00:47:48Z",
+      "createdAt": "2026-07-26T21:47:48Z",
+      "updatedAt": "2026-07-26T21:47:48Z",
       "cookLog": [
         {
-          "id": "carrot-beef-stew-black-rice-c1",
-          "date": "2026-09-05"
+          "id": "beef-potato-stew-c1",
+          "date": "2026-10-07",
+          "note": "Doubled the garlic, good call."
+        },
+        {
+          "id": "beef-potato-stew-c2",
+          "date": "2026-08-13"
+        },
+        {
+          "id": "beef-potato-stew-c3",
+          "date": "2026-06-09"
         }
       ]
     },
     {
-      "id": "claypot-beef-peppers",
-      "title": "Clay pot braised beef with peppers",
-      "description": "Dark, sticky braised beef in the clay pot, with a stir-fry of peppers and pork.",
+      "id": "kimchi-tofu-stew",
+      "title": "Kimchi tofu stew",
+      "description": "Spicy, sour and warming. Best with old kimchi.",
       "ingredients": [
-        "700g beef shin",
-        "Dark soy, soy",
-        "Rock sugar",
-        "Ginger, garlic, star anise",
-        "Green peppers",
-        "Shaoxing wine"
+        "2 cups old kimchi",
+        "Block of silken tofu",
+        "Pork belly or mushrooms",
+        "Gochugaru, gochujang",
+        "Stock",
+        "Spring onion, coriander"
       ],
       "steps": [
-        "Brown beef, add aromatics and wine.",
-        "Braise in the clay pot for 2 hours until sticky.",
-        "Stir-fry peppers separately with garlic."
+        "Fry kimchi and pork in a pot.",
+        "Add stock and chilli, simmer 15 minutes.",
+        "Slide in tofu, top with coriander."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "korean",
+        "soup",
+        "tofu",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/kimchi-tofu-stew/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-23T14:47:48Z",
+      "updatedAt": "2026-07-23T14:47:48Z",
+      "cookLog": [
+        {
+          "id": "kimchi-tofu-stew-c1",
+          "date": "2026-10-13"
+        },
+        {
+          "id": "kimchi-tofu-stew-c2",
+          "date": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "sesame-tofu",
+      "title": "Sesame-crusted tofu with soy glaze",
+      "description": "Firm tofu in a sesame crust with a sticky sauce.",
+      "ingredients": [
+        "Block of firm tofu",
+        "Sesame seeds",
+        "Cornflour",
+        "Soy, mirin, sugar",
+        "Spring onion"
+      ],
+      "steps": [
+        "Press the tofu, cut into slabs.",
+        "Coat in cornflour and sesame, pan-fry until golden.",
+        "Reduce soy, mirin and sugar to a glaze, pour over."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "vegetarian",
+        "tofu",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/sesame-tofu/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-18T23:47:48Z",
+      "updatedAt": "2026-07-18T23:47:48Z",
+      "cookLog": [
+        {
+          "id": "sesame-tofu-c1",
+          "date": "2026-10-03",
+          "note": "Needs more salt than you think."
+        }
+      ]
+    },
+    {
+      "id": "prawn-skewers",
+      "title": "Grilled prawn skewers",
+      "description": "Whole prawns on sticks, grilled until the shells char.",
+      "ingredients": [
+        "12 large shell-on prawns",
+        "Garlic butter",
+        "Lemon",
+        "Chilli",
+        "Skewers"
+      ],
+      "steps": [
+        "Skewer the prawns straight.",
+        "Grill hot, 2 minutes a side, basting with garlic butter.",
+        "Squeeze lemon over."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "seafood",
+        "grill",
+        "summer"
+      ],
+      "photos": [
+        "photos/prawn-skewers/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-15T08:47:48Z",
+      "updatedAt": "2026-07-15T08:47:48Z",
+      "cookLog": [
+        {
+          "id": "prawn-skewers-c1",
+          "date": "2026-06-29",
+          "note": "Doubled the garlic, good call."
+        }
+      ]
+    },
+    {
+      "id": "pork-meatballs-greens",
+      "title": "Pork meatballs with greens and squash",
+      "description": "Ginger pork meatballs with wilted greens.",
+      "ingredients": [
+        "500g pork mince",
+        "Ginger, garlic",
+        "Spring onion",
+        "Soy",
+        "Bunch of greens",
+        "Squash, roasted"
+      ],
+      "steps": [
+        "Season mince, roll, brown in a pan.",
+        "Add greens and a splash of water, cover to wilt.",
+        "Serve with roasted squash."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pork",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/pork-meatballs-greens/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-11T13:47:48Z",
+      "updatedAt": "2026-07-11T13:47:48Z",
+      "cookLog": []
+    },
+    {
+      "id": "sticky-ribs-cabbage",
+      "title": "Sticky pork ribs with charred cabbage",
+      "description": "Oven ribs with a hoisin glaze and a wedge of charred cabbage.",
+      "ingredients": [
+        "Rack of pork ribs",
+        "Hoisin",
+        "Honey",
+        "Soy, rice vinegar",
+        "Five spice",
+        "Half a cabbage"
+      ],
+      "steps": [
+        "Rub ribs with five spice, roast low for 2 hours wrapped in foil.",
+        "Glaze and blast hot until sticky.",
+        "Char cabbage wedges in a hot pan."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pork",
+        "weekend",
+        "roast"
+      ],
+      "photos": [
+        "photos/sticky-ribs-cabbage/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-07T16:47:48Z",
+      "updatedAt": "2026-07-07T16:47:48Z",
+      "cookLog": [
+        {
+          "id": "sticky-ribs-cabbage-c1",
+          "date": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "id": "weeknight-ragu",
+      "title": "Weeknight ragù",
+      "description": "A quick mince sauce for pasta or rice. Freezes well.",
+      "ingredients": [
+        "500g beef mince",
+        "1 onion, 1 carrot",
+        "Tin of tomatoes",
+        "Tomato paste",
+        "Garlic",
+        "Red wine if open"
+      ],
+      "steps": [
+        "Brown the mince hard.",
+        "Add veg and cook down, then paste, wine and tomatoes.",
+        "Simmer 40 minutes, season."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pasta",
+        "weeknight",
+        "freezer"
+      ],
+      "photos": [
+        "photos/weeknight-ragu/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-07-03T16:47:48Z",
+      "updatedAt": "2026-07-03T16:47:48Z",
+      "cookLog": [
+        {
+          "id": "weeknight-ragu-c1",
+          "date": "2026-10-11"
+        },
+        {
+          "id": "weeknight-ragu-c2",
+          "date": "2026-09-07"
+        },
+        {
+          "id": "weeknight-ragu-c3",
+          "date": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "id": "chicken-meatballs-kale",
+      "title": "Chicken meatballs with kale salad",
+      "description": "Meatballs with a crunchy kale and apple salad.",
+      "ingredients": [
+        "500g chicken mince",
+        "Breadcrumbs",
+        "1 egg",
+        "Parmesan",
+        "Kale",
+        "1 apple",
+        "Lemon, olive oil"
+      ],
+      "steps": [
+        "Mix meatballs, roll, fry until browned then finish in the oven.",
+        "Massage kale with lemon, oil and salt.",
+        "Add sliced apple and serve alongside."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chicken",
+        "salad",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/chicken-meatballs-kale/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-28T23:47:48Z",
+      "updatedAt": "2026-06-28T23:47:48Z",
+      "cookLog": [
+        {
+          "id": "chicken-meatballs-kale-c1",
+          "date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "wonton-soup",
+      "title": "Wonton soup",
+      "description": "Pork and prawn wontons in a clear broth with seaweed.",
+      "ingredients": [
+        "Wonton wrappers",
+        "250g pork mince",
+        "100g prawns, chopped",
+        "Ginger, spring onion",
+        "Chicken stock",
+        "Dried seaweed",
+        "White pepper"
+      ],
+      "steps": [
+        "Mix filling with soy, sesame oil and white pepper.",
+        "Fold wontons, freeze any extras.",
+        "Simmer in stock with seaweed for 4 minutes."
       ],
       "notes": "Details made up for testing, edit me.",
       "tags": [
         "chinese",
-        "beef",
+        "soup",
+        "dumplings"
+      ],
+      "photos": [
+        "photos/wonton-soup/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-24T23:47:48Z",
+      "updatedAt": "2026-06-24T23:47:48Z",
+      "cookLog": [
+        {
+          "id": "wonton-soup-c1",
+          "date": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "egg-fried-rice",
+      "title": "Egg fried rice",
+      "description": "Day-old rice, eggs, spring onion. The one everyone wants.",
+      "ingredients": [
+        "3 cups cold cooked rice",
+        "3 eggs",
+        "Spring onion",
+        "Soy sauce",
+        "Peas or carrot",
+        "Neutral oil"
+      ],
+      "steps": [
+        "Scramble the eggs in a hot wok, break up and set aside.",
+        "Fry the rice hard until it crackles.",
+        "Add eggs, veg, soy and spring onion, toss."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "rice",
+        "quick",
+        "vegetarian"
+      ],
+      "photos": [
+        "photos/egg-fried-rice/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-21T10:47:48Z",
+      "updatedAt": "2026-06-21T10:47:48Z",
+      "cookLog": [
+        {
+          "id": "egg-fried-rice-c1",
+          "date": "2026-10-16"
+        },
+        {
+          "id": "egg-fried-rice-c2",
+          "date": "2026-10-08"
+        },
+        {
+          "id": "egg-fried-rice-c3",
+          "date": "2026-09-14"
+        },
+        {
+          "id": "egg-fried-rice-c4",
+          "date": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "id": "chicken-noodles",
+      "title": "Chicken stir-fried noodles",
+      "description": "Thick noodles, chicken thigh and lots of wok heat.",
+      "ingredients": [
+        "Thick wheat noodles",
+        "2 chicken thighs, sliced",
+        "Soy, oyster sauce",
+        "Garlic, ginger",
+        "Cabbage",
+        "Spring onion"
+      ],
+      "steps": [
+        "Marinate chicken briefly in soy and cornflour.",
+        "Stir-fry chicken, then aromatics, then cabbage.",
+        "Add noodles and sauces, toss until everything is glossy."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "noodles",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/chicken-noodles/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-17T00:47:48Z",
+      "updatedAt": "2026-06-17T00:47:48Z",
+      "cookLog": [
+        {
+          "id": "chicken-noodles-c1",
+          "date": "2026-10-15",
+          "note": "Doubled the garlic, good call."
+        },
+        {
+          "id": "chicken-noodles-c2",
+          "date": "2026-09-25"
+        },
+        {
+          "id": "chicken-noodles-c3",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "mushroom-rigatoni",
+      "title": "Rigatoni with mushrooms",
+      "description": "Big pasta tubes with a buttery mushroom sauce.",
+      "ingredients": [
+        "300g rigatoni",
+        "400g mixed mushrooms",
+        "Butter",
+        "Garlic",
+        "Thyme",
+        "Parmesan",
+        "Splash of cream"
+      ],
+      "steps": [
+        "Fry mushrooms hard in butter until browned, add garlic and thyme.",
+        "Cook the pasta, keep a mug of the water.",
+        "Toss everything with parmesan, cream and pasta water."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "weeknight"
+      ],
+      "photos": [
+        "photos/mushroom-rigatoni/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-13T04:47:48Z",
+      "updatedAt": "2026-06-13T04:47:48Z",
+      "cookLog": [
+        {
+          "id": "mushroom-rigatoni-c1",
+          "date": "2026-10-02",
+          "note": "Doubled the garlic, good call."
+        },
+        {
+          "id": "mushroom-rigatoni-c2",
+          "date": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "id": "tuna-poke",
+      "title": "Tuna poke bowl",
+      "description": "Cubed tuna with sesame, nori and a soy dressing.",
+      "ingredients": [
+        "300g sashimi-grade tuna",
+        "Soy sauce",
+        "Sesame oil",
+        "Spring onion",
+        "Nori, snipped",
+        "Toasted sesame seeds",
+        "Rice"
+      ],
+      "steps": [
+        "Cube the tuna.",
+        "Toss with soy, sesame oil, spring onion and nori.",
+        "Serve over warm rice with extra sesame."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "japanese",
+        "fish",
+        "quick",
+        "no-cook"
+      ],
+      "photos": [
+        "photos/tuna-poke/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-09T11:47:48Z",
+      "updatedAt": "2026-06-09T11:47:48Z",
+      "cookLog": [
+        {
+          "id": "tuna-poke-c1",
+          "date": "2026-10-09",
+          "note": "A bit dry, less time next go."
+        }
+      ]
+    },
+    {
+      "id": "crispy-prawns",
+      "title": "Crispy sweet and sour prawns",
+      "description": "Battered prawns tossed in a sticky sauce with shredded carrot.",
+      "ingredients": [
+        "400g prawns",
+        "Cornflour",
+        "1 egg",
+        "Rice vinegar, sugar, soy",
+        "Ketchup",
+        "Carrot, shredded",
+        "Spring onion"
+      ],
+      "steps": [
+        "Coat prawns in egg then cornflour, fry until crisp.",
+        "Simmer the sauce until glossy.",
+        "Toss prawns and carrot in the sauce, finish with spring onion."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "seafood",
+        "fried"
+      ],
+      "photos": [
+        "photos/crispy-prawns/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-05T01:47:48Z",
+      "updatedAt": "2026-06-05T01:47:48Z",
+      "cookLog": []
+    },
+    {
+      "id": "avocado-toast-figs",
+      "title": "Avocado toast with jammy eggs and figs",
+      "description": "Breakfast for a slow Sunday.",
+      "ingredients": [
+        "Sourdough",
+        "1 ripe avocado",
+        "2 eggs",
+        "Fresh figs",
+        "Microgreens",
+        "Chilli flakes, flaky salt"
+      ],
+      "steps": [
+        "Boil the eggs for 6 and a half minutes, then into cold water.",
+        "Toast the bread, smash avocado on top with salt and lemon.",
+        "Top with halved eggs, sliced figs and greens."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "breakfast",
+        "vegetarian",
+        "quick"
+      ],
+      "photos": [
+        "photos/avocado-toast-figs/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-06-01T14:47:48Z",
+      "updatedAt": "2026-06-01T14:47:48Z",
+      "cookLog": [
+        {
+          "id": "avocado-toast-figs-c1",
+          "date": "2026-10-12",
+          "note": "Doubled the garlic, good call."
+        },
+        {
+          "id": "avocado-toast-figs-c2",
+          "date": "2026-09-17"
+        },
+        {
+          "id": "avocado-toast-figs-c3",
+          "date": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "id": "fish-broccolini",
+      "title": "Seared fish with charred broccolini",
+      "description": "Quick weeknight fish with a lemony pan sauce.",
+      "ingredients": [
+        "2 white fish fillets",
+        "Bunch of broccolini",
+        "Butter",
+        "Lemon",
+        "Garlic",
+        "Chilli flakes"
+      ],
+      "steps": [
+        "Char the broccolini in a hot pan with oil, garlic and chilli. Set aside.",
+        "Pat the fish dry, season, sear skin side down until crisp, flip for a minute.",
+        "Add butter and lemon to the pan, spoon over the fish."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "fish",
+        "weeknight",
+        "quick"
+      ],
+      "photos": [
+        "photos/fish-broccolini/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-05-28T15:47:48Z",
+      "updatedAt": "2026-05-28T15:47:48Z",
+      "cookLog": [
+        {
+          "id": "fish-broccolini-c1",
+          "date": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "mezze-night",
+      "title": "Mezze night",
+      "description": "Hummus, baba ganoush, warm flatbreads and whatever is in the fridge on a board.",
+      "ingredients": [
+        "Tin of chickpeas",
+        "Tahini",
+        "2 aubergines",
+        "Lemon, garlic, olive oil",
+        "Flatbread dough or shop pitas",
+        "Carrots, peppers, cucumber, figs",
+        "Prosciutto and cheese if feeling fancy"
+      ],
+      "steps": [
+        "Char the aubergines over the flame until collapsed, scoop and mash with tahini and lemon.",
+        "Blend chickpeas with tahini, lemon, garlic and ice water until silky.",
+        "Cook flatbreads in a screaming hot dry pan.",
+        "Arrange everything on a board and let people pick."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "vegetarian",
+        "sharing",
         "weekend"
       ],
       "photos": [
-        "photos/claypot-beef-peppers/1.jpg"
+        "photos/mezze-night/1.jpg",
+        "photos/mezze-night/2.jpg",
+        "photos/mezze-night/3.jpg"
       ],
       "source": "",
-      "createdAt": "2026-09-29T07:47:48Z",
-      "updatedAt": "2026-09-29T07:47:48Z",
+      "createdAt": "2026-05-24T05:47:48Z",
+      "updatedAt": "2026-05-24T05:47:48Z",
       "cookLog": [
         {
-          "id": "claypot-beef-peppers-c1",
-          "date": "2026-09-16",
-          "note": "Everyone had seconds."
+          "id": "mezze-night-c1",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "chive-pockets",
+      "title": "Chive and egg pockets",
+      "description": "Crisp pan-fried pockets with a soy, vinegar and chilli dipping sauce.",
+      "ingredients": [
+        "300g flour",
+        "Garlic chives, a big bunch",
+        "3 eggs, scrambled",
+        "Glass noodles, soaked",
+        "Sesame oil, soy, black vinegar",
+        "Chilli crisp"
+      ],
+      "steps": [
+        "Mix flour with hot water, rest the dough 30 minutes.",
+        "Scramble the eggs, chop with chives and noodles, season with sesame oil and salt.",
+        "Roll thin rounds, fill, fold over and crimp.",
+        "Pan-fry in a little oil until golden on both sides."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "dumplings",
+        "weekend"
+      ],
+      "photos": [
+        "photos/chive-pockets/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-05-20T07:47:48Z",
+      "updatedAt": "2026-05-20T07:47:48Z",
+      "cookLog": [
+        {
+          "id": "chive-pockets-c1",
+          "date": "2026-10-14"
+        },
+        {
+          "id": "chive-pockets-c2",
+          "date": "2026-09-02"
         }
       ]
     }
