@@ -17,11 +17,14 @@
         "beef",
         "tofu"
       ],
-      "photos": [],
+      "photos": [
+        "photos/mve8223aqwgu7l/mvemmcmypzmzlc.jpg"
+      ],
       "source": "http://xhslink.com/o/4mE9hKSe8Tg",
       "createdAt": "2026-10-18T19:32:01.941Z",
-      "updatedAt": "2026-10-18T19:35:09.393Z",
-      "cookLog": []
+      "updatedAt": "2026-10-19T02:19:47.250Z",
+      "cookLog": [],
+      "wantToCook": false
     },
     {
       "id": "wonton-soup",
