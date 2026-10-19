@@ -23,7 +23,13 @@
       "source": "http://xhslink.com/o/4mE9hKSe8Tg",
       "createdAt": "2026-10-18T19:32:01.941Z",
       "updatedAt": "2026-10-19T02:19:47.250Z",
-      "cookLog": [],
+      "cookLog": [
+        {
+          "id": "mvemmrn2vln8hw",
+          "date": "2026-10-18",
+          "note": "Delicious!"
+        }
+      ],
       "wantToCook": false
     },
     {
