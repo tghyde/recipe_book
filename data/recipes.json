@@ -2,6 +2,47 @@
   "version": 1,
   "recipes": [
     {
+      "id": "mvk6q0oc0r0z5p",
+      "title": "Pad Kra Pao",
+      "description": "Minced pork and basil stir fry.",
+      "ingredients": [
+        "2 shallots",
+        "7 cloves garlic",
+        "1 pound ground pork",
+        "1 chili pepper",
+        "1 bunch basil",
+        "1 tbsp fish sauce",
+        "1 tbsp light soy sauce",
+        "2 tsp dark soy sauce",
+        "2 tsp oyster sauce"
+      ],
+      "steps": [
+        "Combine fish sauce, soy sauce, and oyster sauce into a bowl and stir",
+        "Mince garlic and shallots (combine) and chili pepper (keep separate)",
+        "Stir fry garlic and shallots for 3 minutes (medium heat)",
+        "Add chili pepper and cook for another minute",
+        "Add ground pork, break apart into little chunks; cook till pieces are crispy (high heat)",
+        "Add sauce, stir, cook for another minute",
+        "Add about a cup of water to deglaze the pan and let the extra liquid cook off",
+        "Add basil, stir, and cook till wilted",
+        "Enjoy with rice"
+      ],
+      "notes": "",
+      "tags": [
+        "weeknight",
+        "pork",
+        "thai",
+        "trevor",
+        "rice"
+      ],
+      "photos": [],
+      "source": "https://thewoksoflife.com/pad-kra-pao/#recipe",
+      "createdAt": "2026-10-22T23:41:17.676Z",
+      "updatedAt": "2026-10-22T23:47:00.851Z",
+      "cookLog": [],
+      "sourceTitle": "Woks of Life recipe"
+    },
+    {
       "id": "mve8223aqwgu7l",
       "title": "Ma po tofu",
       "description": "",
