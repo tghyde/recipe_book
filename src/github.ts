@@ -102,7 +102,7 @@ function blobToBase64(blob: Blob): Promise<string> {
  * Throws ConflictError if someone else committed in between (the ref update is fast-forward only).
  */
 export async function commitFiles(message: string, changes: FileChange[]): Promise<string> {
-  const ref = await api<{ object: { sha: string } }>(`/git/ref/heads/${BRANCH}`)
+  const ref = await api<{ object: { sha: string } }>(`/git/ref/heads/${BRANCH}?t=${Date.now()}`)
   const headSha = ref.object.sha
   const head = await api<{ tree: { sha: string } }>(`/git/commits/${headSha}`)
 

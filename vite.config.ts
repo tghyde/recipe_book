@@ -25,11 +25,16 @@ function serveRepoFiles(): Plugin {
 // https://vite.dev/config/
 export default defineConfig({
   base: '/recipe_book/',
+  define: {
+    __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
+  },
   plugins: [
     react(),
     serveRepoFiles(),
     VitePWA({
       registerType: 'autoUpdate',
+      // Registration happens in main.tsx so a new version reloads the open app instead of waiting for a relaunch.
+      injectRegister: null,
       includeAssets: ['icon.svg', 'apple-touch-icon.png', 'icon-512-maskable.png'],
       manifest: {
         name: "When you forget what you've cooked before",

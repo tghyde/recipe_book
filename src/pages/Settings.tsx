@@ -94,6 +94,10 @@ export function Settings() {
             <span>{lastSync ? new Date(lastSync).toLocaleString() : 'Never'}</span>
           </div>
           <div className="kv">
+            <span>App version</span>
+            <span>{new Date(__BUILD_TIME__).toLocaleString()}</span>
+          </div>
+          <div className="kv">
             <span>Keep screen on</span>
             <span>{wakeLockSupported ? 'Supported' : 'Not supported in this browser'}</span>
           </div>
