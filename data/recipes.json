@@ -39,8 +39,14 @@
       "source": "https://thewoksoflife.com/pad-kra-pao/#recipe",
       "createdAt": "2026-10-22T23:41:17.676Z",
       "updatedAt": "2026-10-22T23:47:00.851Z",
-      "cookLog": [],
-      "sourceTitle": "Woks of Life recipe"
+      "cookLog": [
+        {
+          "id": "mvk7mfa533uyjv",
+          "date": "2026-10-22"
+        }
+      ],
+      "sourceTitle": "Woks of Life recipe",
+      "wantToCook": false
     },
     {
       "id": "mve8223aqwgu7l",
