@@ -2,6 +2,39 @@
   "version": 1,
   "recipes": [
     {
+      "id": "chive-pockets",
+      "title": "韭菜盒子",
+      "description": "Crisp pan-fried pockets with a soy, vinegar and chilli dipping sauce.",
+      "ingredients": [
+        "300g flour",
+        "Garlic chives, a big bunch",
+        "3 eggs, scrambled",
+        "Glass noodles, soaked",
+        "Sesame oil, soy, black vinegar",
+        "Chilli crisp"
+      ],
+      "steps": [
+        "Mix flour with hot water, rest the dough 30 minutes.",
+        "Scramble the eggs, chop with chives and noodles, season with sesame oil and salt.",
+        "Roll thin rounds, fill, fold over and crimp.",
+        "Pan-fry in a little oil until golden on both sides."
+      ],
+      "notes": "Details made up for testing, edit me.",
+      "tags": [
+        "chinese",
+        "dumplings",
+        "weekend"
+      ],
+      "photos": [
+        "photos/chive-pockets/1.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-05-20T07:47:48Z",
+      "updatedAt": "2026-10-24T17:16:59.180Z",
+      "cookLog": [],
+      "wantToCook": false
+    },
+    {
       "id": "mvk6q0oc0r0z5p",
       "title": "Pad Kra Pao",
       "description": "Minced pork and basil stir fry.",
@@ -1096,38 +1129,6 @@
       "source": "",
       "createdAt": "2026-05-24T05:47:48Z",
       "updatedAt": "2026-05-24T05:47:48Z",
-      "cookLog": []
-    },
-    {
-      "id": "chive-pockets",
-      "title": "Chive and egg pockets",
-      "description": "Crisp pan-fried pockets with a soy, vinegar and chilli dipping sauce.",
-      "ingredients": [
-        "300g flour",
-        "Garlic chives, a big bunch",
-        "3 eggs, scrambled",
-        "Glass noodles, soaked",
-        "Sesame oil, soy, black vinegar",
-        "Chilli crisp"
-      ],
-      "steps": [
-        "Mix flour with hot water, rest the dough 30 minutes.",
-        "Scramble the eggs, chop with chives and noodles, season with sesame oil and salt.",
-        "Roll thin rounds, fill, fold over and crimp.",
-        "Pan-fry in a little oil until golden on both sides."
-      ],
-      "notes": "Details made up for testing, edit me.",
-      "tags": [
-        "chinese",
-        "dumplings",
-        "weekend"
-      ],
-      "photos": [
-        "photos/chive-pockets/1.jpg"
-      ],
-      "source": "",
-      "createdAt": "2026-05-20T07:47:48Z",
-      "updatedAt": "2026-05-20T07:47:48Z",
       "cookLog": []
     }
   ]
