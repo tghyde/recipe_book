@@ -2,6 +2,34 @@
   "version": 1,
   "recipes": [
     {
+      "id": "mwz4rm8wgjm35y",
+      "title": "Focaccia",
+      "description": "Delicious focaccia recipe we first tried on Thanksgiving. This recipe is for a 9 x 13 in. pan.",
+      "ingredients": [
+        "3 cups OO pizza flour",
+        "1 cup high gluten Chinese flour",
+        "2 cups lukewarm water (plus extra 1/8 ~ 1/4 cup of cold water for high gluten flour)",
+        "2 tsp instant yeast",
+        "4 tbsp spoons olive oil",
+        "2 tsp Kosher salt"
+      ],
+      "steps": [
+        "Mix together ingredients in a large bowl. Let rest for 30 minutes. Stretch and fold 8 to 10 times. Proof in oven till smooth(?)"
+      ],
+      "notes": "",
+      "tags": [
+        "vegetarian"
+      ],
+      "photos": [
+        "photos/mwz4rm8wgjm35y/mwz4steeon6ov0.jpg"
+      ],
+      "source": "",
+      "createdAt": "2026-11-27T15:22:48.032Z",
+      "updatedAt": "2026-11-27T15:28:06.397Z",
+      "cookLog": [],
+      "wantToCook": false
+    },
+    {
       "id": "chive-pockets",
       "title": "韭菜盒子",
       "description": "Crisp pan-fried pockets with a soy, vinegar and chilli dipping sauce.",
