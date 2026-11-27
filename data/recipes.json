@@ -34,7 +34,12 @@
       "source": "",
       "createdAt": "2026-11-27T15:22:48.032Z",
       "updatedAt": "2026-11-27T15:30:00.284Z",
-      "cookLog": [],
+      "cookLog": [
+        {
+          "id": "mwz5173ae634so",
+          "date": "2026-11-26"
+        }
+      ],
       "wantToCook": false
     },
     {
